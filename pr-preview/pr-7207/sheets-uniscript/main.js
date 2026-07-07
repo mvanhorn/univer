@@ -9,7 +9,7 @@ import {
 } from "../chunk-FPDZYQYH.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-JONZLS7D.js";
+} from "../chunk-RDTHEZZL.js";
 import "../chunk-NCWVC3RZ.js";
 import {
   zh_CN_default
