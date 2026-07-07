@@ -1,25 +1,25 @@
-import "../chunk-JM6Z4HWB.js";
+import "../chunk-U7VPJAKK.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-4BPRSKDT.js";
+} from "../chunk-QDHT4QIT.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-7CYFOT77.js";
+} from "../chunk-Q7VDCPLX.js";
 import {
   zh_CN_default
-} from "../chunk-2LAJUHX4.js";
-import "../chunk-HABVI4DR.js";
+} from "../chunk-RW443FRL.js";
+import "../chunk-C4V6SOE5.js";
 import "../chunk-DBRQB4K6.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-YQNLBBK5.js";
-import "../chunk-I36OXUVZ.js";
-import "../chunk-Q3UNBSFA.js";
+} from "../chunk-XU5KUE6F.js";
+import "../chunk-HUOYGETC.js";
+import "../chunk-DBA2T5R4.js";
 import "../chunk-O4CRIMVC.js";
-import "../chunk-UWQ6I5HN.js";
+import "../chunk-7P6YQMKU.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
@@ -35,8 +35,8 @@ import {
   UniverDocsUIPlugin,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-YAIB3M2F.js";
-import "../chunk-WRDP6BX6.js";
+} from "../chunk-NOH7ZSVD.js";
+import "../chunk-SNSWR7JB.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -74,14 +74,14 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-DROW6W4O.js";
+} from "../chunk-AWSF72S7.js";
 import "../chunk-2FVEG47S.js";
-import "../chunk-QRFWOEYQ.js";
+import "../chunk-A6NJHS2C.js";
 import "../chunk-GNAKMJK7.js";
-import "../chunk-BXRAFU5X.js";
+import "../chunk-MTF6YIZF.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-C3ZHGZZI.js";
+} from "../chunk-JIF4X2EQ.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -131,7 +131,7 @@ import {
   pxToNum,
   takeUntil,
   toDisposable
-} from "../chunk-4P6UE246.js";
+} from "../chunk-YCXVR2BL.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1675,7 +1675,7 @@ SlidesUIController = __decorateClass([
 // ../packages/slides-ui/package.json
 var package_default = {
   name: "@univerjs/slides-ui",
-  version: "1.0.0-alpha.1",
+  version: "1.0.0-alpha.2",
   private: false,
   description: "Presentation editor UI layer for Univer Slides.",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",
@@ -1755,7 +1755,7 @@ var package_default = {
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/drawing": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.15.1",
+    "@univerjs/icons": "1.19.0",
     "@univerjs/slides": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },
@@ -1766,7 +1766,7 @@ var package_default = {
     rxjs: "^7.8.2",
     tailwindcss: "3.4.18",
     typescript: "^6.0.3",
-    vitest: "^4.1.9"
+    vitest: "^4.1.10"
   }
 };
 
