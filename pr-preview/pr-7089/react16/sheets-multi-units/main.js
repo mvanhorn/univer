@@ -1,30 +1,30 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-BSTCM2DO.js";
+} from "../chunk-TCXLYKDS.js";
 import {
   UniverSheetsThreadCommentUIPlugin
-} from "../chunk-WEWX5R5B.js";
+} from "../chunk-CUZU4G6D.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-QCE4SY3I.js";
+} from "../chunk-KAILTCQM.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-EDVI5R6S.js";
-import "../chunk-IWOW6J55.js";
-import "../chunk-XCS5RKO4.js";
+} from "../chunk-XDRJR4R2.js";
+import "../chunk-WUEBQJUB.js";
+import "../chunk-IAAFD4M3.js";
 import {
   zh_CN_default
 } from "../chunk-LOC26TUS.js";
 import "../chunk-DBRQB4K6.js";
-import "../chunk-HNHGZWHJ.js";
+import "../chunk-2KYPMNEC.js";
 import "../chunk-DJY2B4JL.js";
 import {
   UniverSheetsThreadCommentPlugin
 } from "../chunk-PGVXIOH2.js";
-import "../chunk-UKHWBWYO.js";
+import "../chunk-ZS7KXRW4.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-AKNVC7DH.js";
+} from "../chunk-FTZDEJZQ.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-5AHFJDRZ.js";
@@ -33,22 +33,22 @@ import {
 } from "../chunk-MH4F6PIU.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-O35NOWKW.js";
+} from "../chunk-GF7VFGIL.js";
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-L765PEWF.js";
-import "../chunk-EQ3TOMMO.js";
+import "../chunk-PBYFXKWV.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-2KUXQJTA.js";
+} from "../chunk-2L3MB7NR.js";
 import "../chunk-O4CRIMVC.js";
 import "../chunk-DA75FTEE.js";
-import "../chunk-D5H5P7PW.js";
+import "../chunk-HOWFZZY3.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-N4DOMT35.js";
+} from "../chunk-DV6J5ZIJ.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-LI6UXASZ.js";
 import {
@@ -58,7 +58,7 @@ import {
   require_react,
   useDependency,
   useObservable
-} from "../chunk-F7KMDBHX.js";
+} from "../chunk-V532XFUH.js";
 import {
   UniverSheetsFilterPlugin
 } from "../chunk-PAB77PEQ.js";
@@ -184,13 +184,13 @@ var injector = univer.__getInjector();
 var userManagerService = injector.get(UserManagerService);
 userManagerService.setCurrentUser(mockUser);
 setTimeout(() => {
-  import("../lazy-Y4GPBC2D.js").then((lazy) => {
+  import("../lazy-KHY5ACGR.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
 }, LOAD_LAZY_PLUGINS_TIMEOUT);
 setTimeout(() => {
-  import("../very-lazy-TH37AGFR.js").then((lazy) => {
+  import("../very-lazy-MRXTSHJ3.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
