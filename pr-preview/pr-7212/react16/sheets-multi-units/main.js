@@ -190,7 +190,7 @@ setTimeout(() => {
   });
 }, LOAD_LAZY_PLUGINS_TIMEOUT);
 setTimeout(() => {
-  import("../very-lazy-SZMKX4BE.js").then((lazy) => {
+  import("../very-lazy-N43XS5RO.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
