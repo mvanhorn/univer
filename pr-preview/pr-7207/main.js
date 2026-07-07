@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-AWSF72S7.js";
+} from "./chunk-VSLW7ZRN.js";
 import {
   default_default
-} from "./chunk-YCXVR2BL.js";
+} from "./chunk-53ZUKXTZ.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -230,11 +230,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "d148a7a",
+    GIT_COMMIT_HASH: "6e0117f",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "codex/sheet-render-scroll-perf",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-07T09:23:45.139Z"
+    BUILD_TIME: "2026-07-07T09:36:49.180Z"
   });
 }
 function DemoList({ items }) {
