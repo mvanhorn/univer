@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-AE2SMQJX.js";
+} from "./chunk-STR5WP3G.js";
 import {
   default_default
-} from "./chunk-LT6FETEP.js";
+} from "./chunk-TBRD6MYV.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -133,11 +133,6 @@ var demos = [
     "title": "Docs"
   },
   {
-    "dir": "docs-uniscript",
-    "href": "./docs-uniscript/",
-    "title": "Docs Uniscript"
-  },
-  {
     "dir": "preset-docs-core",
     "href": "./preset-docs-core/",
     "title": "Preset Docs Core"
@@ -176,11 +171,6 @@ var demos = [
     "dir": "sheets-no-worker",
     "href": "./sheets-no-worker/",
     "title": "Sheets No Worker"
-  },
-  {
-    "dir": "sheets-uniscript",
-    "href": "./sheets-uniscript/",
-    "title": "Sheets Uniscript"
   },
   {
     "dir": "sheets-webcomponent",
@@ -236,11 +226,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "124836d",
+    GIT_COMMIT_HASH: "20a7103",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "dev",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-08T05:03:25.958Z"
+    BUILD_TIME: "2026-07-08T08:42:10.006Z"
   });
 }
 function DemoList({ items }) {
