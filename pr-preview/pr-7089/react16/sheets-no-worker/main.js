@@ -1,20 +1,20 @@
-import "../chunk-NUZV3QR7.js";
-import "../chunk-SLRPDIFT.js";
+import "../chunk-4GRIU7KD.js";
+import "../chunk-46ONMEI2.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-DB6XPEMN.js";
+} from "../chunk-G7UQVGEP.js";
 import "../chunk-AIOK3JUI.js";
 import {
   zh_CN_default
 } from "../chunk-J7LYHFI6.js";
-import "../chunk-Y7U24LMW.js";
+import "../chunk-4WKZECRZ.js";
 import "../chunk-DBRQB4K6.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
-} from "../chunk-EG7Z3EN7.js";
-import "../chunk-BWMAHAWV.js";
-import "../chunk-J2BJLBO5.js";
+} from "../chunk-GMMMTEPE.js";
+import "../chunk-ELNRYXEW.js";
+import "../chunk-AWJCSZVH.js";
 import {
   UniverSheetsNotePlugin,
   UniverSheetsTablePlugin
@@ -26,33 +26,33 @@ import {
 import "../chunk-FJNOFSXO.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-JJ57X34P.js";
+} from "../chunk-FL5GG3DK.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-HLCVIGJV.js";
 import {
   UniverSheetsConditionalFormattingPlugin
 } from "../chunk-4D32OKJR.js";
-import "../chunk-L2SWNQJB.js";
+import "../chunk-JGJO7U7M.js";
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-GFA6PV6N.js";
-import "../chunk-JSCXODGS.js";
+import "../chunk-H5B3YQKX.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-TK4RYGIJ.js";
+} from "../chunk-62ISQU23.js";
 import "../chunk-CPLPYTNU.js";
 import "../chunk-3TATA5GD.js";
 import {
   UniverNetworkPlugin
 } from "../chunk-KLW3HFM6.js";
 import "../chunk-M4OUO3P4.js";
-import "../chunk-CK5UGHQW.js";
+import "../chunk-M6CFKAUN.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-NX2652CH.js";
+} from "../chunk-YYY2VM6P.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-LI6UXASZ.js";
 import {
@@ -145,13 +145,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-P6LNT75Z.js").then((lazy) => {
+    import("../lazy-2CU7NHS5.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-NMZWJUYF.js").then((lazy) => {
+    import("../very-lazy-SD6K7JNR.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });
