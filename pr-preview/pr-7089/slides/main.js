@@ -1,29 +1,24 @@
-import "../chunk-HMMXNSV4.js";
+import "../chunk-I7WFJTAW.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-USOJALF7.js";
+} from "../chunk-KJ2QCJNR.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-6E6TTBZV.js";
-import {
-  zh_CN_default
-} from "../chunk-J7LYHFI6.js";
-import "../chunk-TKOFCP7V.js";
-import "../chunk-DBRQB4K6.js";
+} from "../chunk-NOLI233N.js";
+import "../chunk-I456V7X6.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-U4RVHO6W.js";
-import "../chunk-RLOKW6JK.js";
-import "../chunk-WBOZWFG6.js";
-import "../chunk-CPLPYTNU.js";
+} from "../chunk-X6VTNY5O.js";
+import "../chunk-YVSPUHNM.js";
+import "../chunk-YBKXLEB3.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-42WBGQPP.js";
+} from "../chunk-PQDTQSTX.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -36,8 +31,7 @@ import {
   RichTextEditingMutation,
   UniverDocsPlugin,
   UniverDocsUIPlugin
-} from "../chunk-UHQZI7IK.js";
-import "../chunk-SNSWR7JB.js";
+} from "../chunk-MX7RLLSN.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -75,14 +69,20 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-ZGYKVTIJ.js";
+} from "../chunk-FIAB6JQW.js";
+import "../chunk-A3U6N6EB.js";
+import {
+  zh_CN_default
+} from "../chunk-ZS3JSJNT.js";
+import "../chunk-DBRQB4K6.js";
+import "../chunk-CPLPYTNU.js";
+import "../chunk-SNSWR7JB.js";
 import "../chunk-2FVEG47S.js";
-import "../chunk-7OF42WTX.js";
 import "../chunk-GNAKMJK7.js";
-import "../chunk-U5HR3MOQ.js";
+import "../chunk-ZAPF6GCB.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-ZGC4B4ZI.js";
+} from "../chunk-XDWEESGO.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -132,7 +132,7 @@ import {
   pxToNum,
   takeUntil,
   toDisposable
-} from "../chunk-64NTBQQD.js";
+} from "../chunk-BCDUMSPY.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,

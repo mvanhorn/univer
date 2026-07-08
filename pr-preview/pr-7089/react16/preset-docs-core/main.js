@@ -2,63 +2,63 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-UMD3G3GO.js";
+} from "../chunk-JPZMRBHV.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-E2NEHSRB.js";
+} from "../chunk-4HCLTMZF.js";
 import {
   createUniver
-} from "../chunk-ZET25OFL.js";
+} from "../chunk-65I5ZPFH.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-TKOFCP7V.js";
+} from "../chunk-I456V7X6.js";
+import {
+  DEFAULT_DOCUMENT_DATA_SIMPLE
+} from "../chunk-X6VTNY5O.js";
+import "../chunk-52LPCDHP.js";
+import {
+  UniverNetworkPlugin
+} from "../chunk-6HMJ7NYI.js";
+import "../chunk-CHZTCWQ6.js";
+import "../chunk-UEXSOKOT.js";
+import {
+  UniverDocsDrawingPlugin,
+  UniverDrawingPlugin,
+  UniverDrawingUIPlugin
+} from "../chunk-PQDTQSTX.js";
+import {
+  UniverDocsPlugin,
+  UniverDocsUIPlugin
+} from "../chunk-MX7RLLSN.js";
+import "../chunk-LI6UXASZ.js";
+import {
+  UniverUIPlugin
+} from "../chunk-FIAB6JQW.js";
+import "../chunk-A3U6N6EB.js";
 import {
   zh_CN_default as zh_CN_default2,
   zh_CN_default2 as zh_CN_default3,
   zh_CN_default3 as zh_CN_default4
 } from "../chunk-DBRQB4K6.js";
 import {
-  DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-U4RVHO6W.js";
-import "../chunk-OUEWG7J4.js";
-import {
-  UniverNetworkPlugin
-} from "../chunk-LHXVUBKC.js";
-import "../chunk-NHTAIDYZ.js";
-import "../chunk-P3M6ROB4.js";
-import {
-  UniverDocsDrawingPlugin,
-  UniverDrawingPlugin,
-  UniverDrawingUIPlugin
-} from "../chunk-42WBGQPP.js";
-import {
-  UniverDocsPlugin,
-  UniverDocsUIPlugin
-} from "../chunk-UHQZI7IK.js";
-import {
   zh_CN_default as zh_CN_default6,
   zh_CN_default2 as zh_CN_default7
 } from "../chunk-SNSWR7JB.js";
-import "../chunk-LI6UXASZ.js";
-import {
-  UniverUIPlugin
-} from "../chunk-ZGYKVTIJ.js";
-import "../chunk-7OF42WTX.js";
 import {
   zh_CN_default,
   zh_CN_default2 as zh_CN_default5,
   zh_CN_default3 as zh_CN_default8
 } from "../chunk-GNAKMJK7.js";
-import "../chunk-U5HR3MOQ.js";
+import "../chunk-ZAPF6GCB.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-ZGC4B4ZI.js";
+} from "../chunk-XDWEESGO.js";
 import {
   IImageIoService,
   UniverRenderEnginePlugin,
   default_default,
   mergeLocales
-} from "../chunk-64NTBQQD.js";
+} from "../chunk-BCDUMSPY.js";
 import "../chunk-EQ2B2W73.js";
 import "../chunk-HECJ2TYE.js";
 
