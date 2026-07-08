@@ -3,67 +3,67 @@ import {
 } from "../chunk-ZH532X4D.js";
 import "../chunk-REZ6O7M2.js";
 import "../chunk-62FTG3QU.js";
-import "../chunk-H2Q766NO.js";
+import "../chunk-W4Q4VHSC.js";
 import {
   UniverVue3AdapterPlugin,
   UniverWebComponentAdapterPlugin
-} from "../chunk-563H7QLG.js";
-import "../chunk-HMDNU2ZQ.js";
+} from "../chunk-PC6UVI3R.js";
+import "../chunk-2W6YVTSW.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-BWO6HWB2.js";
-import "../chunk-J2RK4P5U.js";
+} from "../chunk-NTZQSWEO.js";
+import "../chunk-AIOK3JUI.js";
 import {
   zh_CN_default
 } from "../chunk-J7LYHFI6.js";
-import "../chunk-OSOQAH3B.js";
+import "../chunk-JB55TVRC.js";
 import "../chunk-DBRQB4K6.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
-} from "../chunk-SUQUNGCT.js";
-import "../chunk-PCXTDLR5.js";
-import "../chunk-7MSEJUEY.js";
+} from "../chunk-ZSXD76HM.js";
+import "../chunk-LMCKYE56.js";
+import "../chunk-SS2AUD2F.js";
 import {
   UniverSheetsNotePlugin,
   UniverSheetsTablePlugin
-} from "../chunk-QTYE4MCD.js";
-import "../chunk-AMR26LSK.js";
+} from "../chunk-EPZRDFGQ.js";
+import "../chunk-7A64NIAM.js";
 import {
   UniverSheetsThreadCommentPlugin
-} from "../chunk-JISPISRB.js";
-import "../chunk-QTMTRRUA.js";
+} from "../chunk-PPNZJ2FD.js";
+import "../chunk-FJNOFSXO.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-SVPGXPSA.js";
+} from "../chunk-MIU5JYT4.js";
 import {
   UniverSheetsSortPlugin
-} from "../chunk-COOOUSWH.js";
+} from "../chunk-HLCVIGJV.js";
 import {
   UniverSheetsConditionalFormattingPlugin
-} from "../chunk-53VNDO6L.js";
-import "../chunk-MXO2WY5X.js";
+} from "../chunk-4D32OKJR.js";
+import "../chunk-XYS6OW4C.js";
 import {
   UniverSheetsNumfmtPlugin
-} from "../chunk-TNPULS42.js";
-import "../chunk-EA7FWG2H.js";
+} from "../chunk-GFA6PV6N.js";
+import "../chunk-4YQLAMP3.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
-} from "../chunk-ZJQNMU5F.js";
+} from "../chunk-TAOLRQUZ.js";
 import "../chunk-CPLPYTNU.js";
-import "../chunk-4WMHMVXP.js";
+import "../chunk-3TATA5GD.js";
 import {
   UniverNetworkPlugin
-} from "../chunk-DJMIHHBC.js";
-import "../chunk-OOGOLXVT.js";
-import "../chunk-R2CHFGKU.js";
-import "../chunk-AW6MVKEJ.js";
+} from "../chunk-KLW3HFM6.js";
+import "../chunk-FNWHBIA7.js";
+import "../chunk-M4OUO3P4.js";
+import "../chunk-JAPOFLK5.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-233BGXLQ.js";
+} from "../chunk-5XJJ3A2O.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-LI6UXASZ.js";
 import {
@@ -74,18 +74,18 @@ import {
   IconManager,
   UniverUIPlugin,
   require_jsx_runtime
-} from "../chunk-ZVOMUIYQ.js";
+} from "../chunk-ZQSMBML7.js";
 import {
   UniverSheetsFilterPlugin
-} from "../chunk-IAYOCKQB.js";
+} from "../chunk-JJRCNODX.js";
 import "../chunk-2FVEG47S.js";
 import {
   FUniver
-} from "../chunk-KHIOYQPM.js";
+} from "../chunk-6UDHLTCS.js";
 import "../chunk-GNAKMJK7.js";
 import {
   UniverSheetsFormulaPlugin
-} from "../chunk-WJYUUTYJ.js";
+} from "../chunk-66AJFP3O.js";
 import {
   ClearSelectionContentCommand,
   RemoveColByRangeCommand,
@@ -100,7 +100,7 @@ import {
   UniverRPCMainThreadPlugin,
   UniverSheetsPlugin,
   getSheetCommandTarget
-} from "../chunk-VCMSFB6X.js";
+} from "../chunk-GO2XKGCC.js";
 import {
   CanceledError,
   DisposableCollection,
@@ -118,7 +118,7 @@ import {
   combineLatest,
   covertCellValues,
   sequenceExecute
-} from "../chunk-IBIZ2ACU.js";
+} from "../chunk-6GPVK25F.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -147,73 +147,21 @@ var CustomRangeLoading = () => {
 
 // src/sheets/custom/custom-float-dom/float-dom.ts
 function insertFloatDom(univer, univerAPI) {
-  const disposableCollection = new DisposableCollection();
-  const floatDomDisposables = new DisposableCollection();
-  disposableCollection.add(univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, ({ stage }) => {
+  univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, ({ stage }) => {
     if (stage === univerAPI.Enum.LifecycleStages.Steady) {
       univerAPI.registerComponent("CustomRangeLoading", CustomRangeLoading);
       const fWorkbook = univerAPI.getActiveWorkbook();
       const fWorksheet = fWorkbook.getActiveSheet();
       const fRange = fWorksheet.getRange("A1:C3");
       const disposable = fWorksheet.addFloatDomToRange(fRange, { componentKey: "CustomRangeLoading" }, {}, "myRangeLoading");
-      if (disposable) {
-        floatDomDisposables.add(disposable);
-      }
       console.warn("Float DOM", disposable);
     }
-  }));
-  univer.onDispose(() => {
-    floatDomDisposables.dispose();
-    disposableCollection.dispose();
   });
 }
 
 // src/sheets/custom/custom-range-popup/simple-range-popup.tsx
 var import_jsx_runtime2 = __toESM(require_jsx_runtime(), 1);
 function simpleRangePopupDemo(univer, univerAPI) {
-  let activePopupWorkbookId = null;
-  let activePopupDisposable = null;
-  let disposed = false;
-  const disposableCollection = new DisposableCollection();
-  const pendingTimers = /* @__PURE__ */ new Set();
-  const attachPopup = (workbook = univerAPI.getActiveWorkbook()) => {
-    if (disposed || !workbook) {
-      return false;
-    }
-    const workbookId = workbook.getId();
-    if (activePopupWorkbookId) {
-      return false;
-    }
-    const worksheet = workbook.getActiveSheet();
-    if (!worksheet) {
-      return false;
-    }
-    if (!isWorkbookCanvasMounted(workbookId)) {
-      return false;
-    }
-    const range = worksheet.getRange("B2:D100");
-    const disposable = range.attachRangePopup({
-      componentKey: "MySimplePopup",
-      direction: "right-bottom",
-      offset: [0, 10]
-    });
-    if (!disposable) {
-      return false;
-    }
-    activePopupDisposable = disposable;
-    activePopupWorkbookId = workbookId;
-    return true;
-  };
-  const scheduleAttachPopup = (workbook = univerAPI.getActiveWorkbook()) => {
-    const delays = [0, 100, 300, 1e3];
-    delays.forEach((delay) => {
-      const timer = setTimeout(() => {
-        pendingTimers.delete(timer);
-        attachPopup(workbook);
-      }, delay);
-      pendingTimers.add(timer);
-    });
-  };
   univerAPI.registerComponent("MySimplePopup", () => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
     "div",
     {
@@ -228,85 +176,51 @@ function simpleRangePopupDemo(univer, univerAPI) {
       children: "Hello from Range Popup!"
     }
   ));
-  disposableCollection.add(
-    univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, (params) => {
-      if (params.stage === 2 /* Rendered */) {
-        scheduleAttachPopup();
-      }
-    })
-  );
-  disposableCollection.add(
-    univerAPI.addEvent(univerAPI.Event.WorkbookCreated, ({ workbook }) => {
-      scheduleAttachPopup(workbook);
-    })
-  );
-  univer.onDispose(() => {
-    disposed = true;
-    pendingTimers.forEach((timer) => clearTimeout(timer));
-    pendingTimers.clear();
-    activePopupDisposable == null ? void 0 : activePopupDisposable.dispose();
-    activePopupDisposable = null;
-    activePopupWorkbookId = null;
-    disposableCollection.dispose();
+  univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, (params) => {
+    if (params.stage === 2 /* Rendered */) {
+      const workbook = univerAPI.getActiveWorkbook();
+      const worksheet = workbook.getActiveSheet();
+      const range = worksheet.getRange("B2:D100");
+      range.attachRangePopup({
+        componentKey: "MySimplePopup",
+        direction: "right-bottom",
+        offset: [0, 10]
+      });
+    }
   });
-}
-function isWorkbookCanvasMounted(workbookId) {
-  if (typeof document === "undefined") {
-    return false;
-  }
-  const canvas = document.getElementById(`univer-sheet-main-canvas_${workbookId}`);
-  const rect = canvas == null ? void 0 : canvas.getBoundingClientRect();
-  return !!(canvas == null ? void 0 : canvas.parentElement) && !!rect && rect.width > 0 && rect.height > 0;
 }
 
 // src/sheets/custom/custom-register-event.ts
 function customRegisterEvent(univer, univerAPI) {
-  const disposableCollection = new DisposableCollection();
-  const pendingTimers = /* @__PURE__ */ new Set();
-  const scheduleTimer = (callback, delay) => {
-    const timer = setTimeout(() => {
-      pendingTimers.delete(timer);
-      callback();
-    }, delay);
-    pendingTimers.add(timer);
-  };
   registerMainRightClickEvent(univer, univerAPI);
-  disposableCollection.add(
-    univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, ({ stage }) => {
-      if (stage === univerAPI.Enum.LifecycleStages.Steady) {
-        registerRemoveColumnEvent(univer, univerAPI);
-        registerBeforeRemoveColumnEvent(univer, univerAPI);
-        disposableCollection.add(univerAPI.addEvent("MainRightClickEvent", (params) => {
-          const { row, column } = params;
-          console.warn(`Right clicked on cell at ${univerAPI.Util.tools.chatAtABC(column)}${row + 1}`);
-          if (row === 0 && column === 0) {
-            params.cancel = true;
-          }
-        }));
-        disposableCollection.add(univerAPI.addEvent("RemoveColumnEvent", (params) => {
-          const { startColumn, endColumn } = params;
-          console.warn(`Removed columns from ${univerAPI.Util.tools.chatAtABC(startColumn)} to ${univerAPI.Util.tools.chatAtABC(endColumn)}`);
-        }));
-        const beforeRemoveColumnEventDisposable = univerAPI.addEvent("BeforeRemoveColumnEvent", (params) => {
-          const { startColumn, endColumn } = params;
-          console.warn(`Before removing columns from ${univerAPI.Util.tools.chatAtABC(startColumn)} to ${univerAPI.Util.tools.chatAtABC(endColumn)}`);
-          if (!(startColumn > 4 || endColumn < 2)) {
-            params.cancel = true;
-            console.warn("Cannot delete column C to E");
-          }
-        });
-        disposableCollection.add(beforeRemoveColumnEventDisposable);
-        scheduleTimer(() => {
-          beforeRemoveColumnEventDisposable.dispose();
-          console.warn("BeforeRemoveColumnEvent listener has been removed, you can delete any columns now.");
-        }, 1e4);
-      }
-    })
-  );
-  univer.onDispose(() => {
-    pendingTimers.forEach((timer) => clearTimeout(timer));
-    pendingTimers.clear();
-    disposableCollection.dispose();
+  univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, ({ stage }) => {
+    if (stage === univerAPI.Enum.LifecycleStages.Steady) {
+      registerRemoveColumnEvent(univer, univerAPI);
+      registerBeforeRemoveColumnEvent(univer, univerAPI);
+      univerAPI.addEvent("MainRightClickEvent", (params) => {
+        const { row, column } = params;
+        console.warn(`Right clicked on cell at ${univerAPI.Util.tools.chatAtABC(column)}${row + 1}`);
+        if (row === 0 && column === 0) {
+          params.cancel = true;
+        }
+      });
+      univerAPI.addEvent("RemoveColumnEvent", (params) => {
+        const { startColumn, endColumn } = params;
+        console.warn(`Removed columns from ${univerAPI.Util.tools.chatAtABC(startColumn)} to ${univerAPI.Util.tools.chatAtABC(endColumn)}`);
+      });
+      const beforeRemoveColumnEventDisposable = univerAPI.addEvent("BeforeRemoveColumnEvent", (params) => {
+        const { startColumn, endColumn } = params;
+        console.warn(`Before removing columns from ${univerAPI.Util.tools.chatAtABC(startColumn)} to ${univerAPI.Util.tools.chatAtABC(endColumn)}`);
+        if (!(startColumn > 4 || endColumn < 2)) {
+          params.cancel = true;
+          console.warn("Cannot delete column C to E");
+        }
+      });
+      setTimeout(() => {
+        beforeRemoveColumnEventDisposable.dispose();
+        console.warn("BeforeRemoveColumnEvent listener has been removed, you can delete any columns now.");
+      }, 1e4);
+    }
   });
 }
 function registerMainRightClickEvent(univer, univerAPI) {
@@ -713,13 +627,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-LHXGV4DH.js").then((lazy) => {
+    import("../lazy-X4RXE2XG.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-B67KIUXQ.js").then((lazy) => {
+    import("../very-lazy-GPGNYWG5.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
