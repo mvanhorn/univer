@@ -1,23 +1,23 @@
 import "../chunk-HAA6MO6W.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-3NU3PJID.js";
+} from "../chunk-R3ZDLJ7H.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-4FBDVIOH.js";
 import {
   zh_CN_default
 } from "../chunk-J7LYHFI6.js";
-import "../chunk-44PTMJJH.js";
+import "../chunk-6BEFSKAJ.js";
 import "../chunk-DBRQB4K6.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-UQXM6FPC.js";
-import "../chunk-CAQP7JLO.js";
-import "../chunk-Z237YT5B.js";
+} from "../chunk-3MTADXPV.js";
+import "../chunk-VORRC5WD.js";
+import "../chunk-MFGUBHYT.js";
 import "../chunk-CPLPYTNU.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
@@ -36,7 +36,7 @@ import {
   RichTextEditingMutation,
   UniverDocsPlugin,
   UniverDocsUIPlugin
-} from "../chunk-YZCSCC5F.js";
+} from "../chunk-TMUUSCWM.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-LI6UXASZ.js";
 import {
@@ -79,10 +79,10 @@ import {
 import "../chunk-2FVEG47S.js";
 import "../chunk-WMVBWFQG.js";
 import "../chunk-GNAKMJK7.js";
-import "../chunk-XOHMQ3ID.js";
+import "../chunk-VYIAE3OT.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-RN2D33K3.js";
+} from "../chunk-4FXSDHB6.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
