@@ -1,7 +1,7 @@
 import {
   UniverSheetsNoteUIPlugin,
   UniverSheetsTableUIPlugin
-} from "../chunk-4Z2GQYOP.js";
+} from "../chunk-Q73KAHVT.js";
 import {
   UniverSheetsSortUIPlugin
 } from "../chunk-T5QKL5IH.js";
@@ -9,7 +9,7 @@ import {
   UniverSheetsConditionalFormattingUIPlugin,
   UniverSheetsDataValidationUIPlugin,
   UniverSheetsFilterUIPlugin
-} from "../chunk-CF2SFHPG.js";
+} from "../chunk-GMH43BEU.js";
 import {
   UniverSheetsNumfmtUIPlugin
 } from "../chunk-G22653WV.js";
@@ -28,7 +28,7 @@ import {
 import {
   UniverSheetsHyperLinkPlugin,
   UniverSheetsHyperLinkUIPlugin
-} from "../chunk-RHEUQ43A.js";
+} from "../chunk-FL5GG3DK.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-HLCVIGJV.js";
@@ -37,7 +37,7 @@ import {
 } from "../chunk-4D32OKJR.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-4HDKF3BA.js";
+} from "../chunk-JGJO7U7M.js";
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-GFA6PV6N.js";

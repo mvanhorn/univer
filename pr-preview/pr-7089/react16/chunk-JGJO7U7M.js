@@ -351,6 +351,42 @@ var findRefSequenceIndex = (sequenceNode, targetIndex) => {
   return result;
 };
 
+// ../packages/sheets-formula-ui/src/views/formula-editor/formula-embed-integration.service.ts
+var FORMULA_EMBED_INTERACTION_BOUNDARY_OWNER_ATTRIBUTE = "data-embed-interaction-boundary-owner";
+var FORMULA_EMBED_ID_ATTRIBUTE = "data-embed-id";
+var FORMULA_EMBED_HOST_UNIT_ID_ATTRIBUTE = "data-embed-host-unit-id";
+var FORMULA_EMBED_CHILD_UNIT_ID_ATTRIBUTE = "data-embed-child-unit-id";
+var IFormulaEmbedRuntimeFocusCoordinator = createIdentifier("sheets-formula-ui.embed-runtime-focus-coordinator");
+var IFormulaEmbedInteractionBoundaryService = createIdentifier("sheets-formula-ui.embed-interaction-boundary.service");
+function resolveFormulaEmbedRuntimeDomScope(root) {
+  var _a, _b;
+  const scopeElement = root == null ? void 0 : root.closest(`[${FORMULA_EMBED_ID_ATTRIBUTE}]`);
+  const embedId = scopeElement == null ? void 0 : scopeElement.getAttribute(FORMULA_EMBED_ID_ATTRIBUTE);
+  if (!scopeElement || !embedId) {
+    return void 0;
+  }
+  return {
+    embedId,
+    hostUnitId: (_a = scopeElement.getAttribute(FORMULA_EMBED_HOST_UNIT_ID_ATTRIBUTE)) != null ? _a : void 0,
+    childUnitId: (_b = scopeElement.getAttribute(FORMULA_EMBED_CHILD_UNIT_ID_ATTRIBUTE)) != null ? _b : void 0
+  };
+}
+function resolveActiveFormulaEmbedRuntimeDomScope(ownerDocument) {
+  const activeElement = ownerDocument == null ? void 0 : ownerDocument.activeElement;
+  return activeElement instanceof HTMLElement ? resolveFormulaEmbedRuntimeDomScope(activeElement) : void 0;
+}
+function isEventTargetInSameFormulaEmbedInteractionBoundary(left, right) {
+  const leftOwner = resolveFormulaEmbedInteractionOwnerId(left);
+  return Boolean(leftOwner && leftOwner === resolveFormulaEmbedInteractionOwnerId(right));
+}
+function resolveFormulaEmbedInteractionOwnerId(target) {
+  var _a, _b;
+  if (!(target instanceof Element)) {
+    return void 0;
+  }
+  return (_b = (_a = target.closest(`[${FORMULA_EMBED_INTERACTION_BOUNDARY_OWNER_ATTRIBUTE}]`)) == null ? void 0 : _a.getAttribute(FORMULA_EMBED_INTERACTION_BOUNDARY_OWNER_ATTRIBUTE)) != null ? _b : void 0;
+}
+
 // ../packages/sheets-formula-ui/src/views/formula-editor/help-function/HelpFunction.tsx
 var import_react5 = __toESM(require_react());
 
@@ -877,42 +913,6 @@ function HelpFunction(props) {
       ]
     }
   ) }, "show") : null;
-}
-
-// ../packages/sheets-formula-ui/src/views/formula-editor/formula-embed-integration.service.ts
-var FORMULA_EMBED_INTERACTION_BOUNDARY_OWNER_ATTRIBUTE = "data-embed-interaction-boundary-owner";
-var FORMULA_EMBED_ID_ATTRIBUTE = "data-embed-id";
-var FORMULA_EMBED_HOST_UNIT_ID_ATTRIBUTE = "data-embed-host-unit-id";
-var FORMULA_EMBED_CHILD_UNIT_ID_ATTRIBUTE = "data-embed-child-unit-id";
-var IFormulaEmbedRuntimeFocusCoordinator = createIdentifier("sheets-formula-ui.embed-runtime-focus-coordinator");
-var IFormulaEmbedInteractionBoundaryService = createIdentifier("sheets-formula-ui.embed-interaction-boundary.service");
-function resolveFormulaEmbedRuntimeDomScope(root) {
-  var _a, _b;
-  const scopeElement = root == null ? void 0 : root.closest(`[${FORMULA_EMBED_ID_ATTRIBUTE}]`);
-  const embedId = scopeElement == null ? void 0 : scopeElement.getAttribute(FORMULA_EMBED_ID_ATTRIBUTE);
-  if (!scopeElement || !embedId) {
-    return void 0;
-  }
-  return {
-    embedId,
-    hostUnitId: (_a = scopeElement.getAttribute(FORMULA_EMBED_HOST_UNIT_ID_ATTRIBUTE)) != null ? _a : void 0,
-    childUnitId: (_b = scopeElement.getAttribute(FORMULA_EMBED_CHILD_UNIT_ID_ATTRIBUTE)) != null ? _b : void 0
-  };
-}
-function resolveActiveFormulaEmbedRuntimeDomScope(ownerDocument) {
-  const activeElement = ownerDocument == null ? void 0 : ownerDocument.activeElement;
-  return activeElement instanceof HTMLElement ? resolveFormulaEmbedRuntimeDomScope(activeElement) : void 0;
-}
-function isEventTargetInSameFormulaEmbedInteractionBoundary(left, right) {
-  const leftOwner = resolveFormulaEmbedInteractionOwnerId(left);
-  return Boolean(leftOwner && leftOwner === resolveFormulaEmbedInteractionOwnerId(right));
-}
-function resolveFormulaEmbedInteractionOwnerId(target) {
-  var _a, _b;
-  if (!(target instanceof Element)) {
-    return void 0;
-  }
-  return (_b = (_a = target.closest(`[${FORMULA_EMBED_INTERACTION_BOUNDARY_OWNER_ATTRIBUTE}]`)) == null ? void 0 : _a.getAttribute(FORMULA_EMBED_INTERACTION_BOUNDARY_OWNER_ATTRIBUTE)) != null ? _b : void 0;
 }
 
 // ../packages/sheets-formula-ui/src/views/formula-editor/hooks/use-focus.ts
@@ -3070,6 +3070,10 @@ function registerFormulaEditorRuntimePortal(options) {
     registeredPortalRoot = portalRoot;
     if (options.interactionBoundaryService) {
       rootRegistration.add(options.interactionBoundaryService.registerOwnedElement(options.embedId, portalRoot));
+      const editorElement = ownerDocument.getElementById(`__editor_${options.editorId}`);
+      if (editorElement && editorElement !== portalRoot) {
+        rootRegistration.add(options.interactionBoundaryService.registerOwnedElement(options.embedId, editorElement));
+      }
     }
     if (options.focusCoordinator) {
       rootRegistration.add(options.focusCoordinator.registerElement({

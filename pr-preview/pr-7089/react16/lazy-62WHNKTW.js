@@ -4,12 +4,12 @@ import {
 import {
   UniverSheetsNoteUIPlugin,
   UniverSheetsTableUIPlugin
-} from "./chunk-4Z2GQYOP.js";
+} from "./chunk-Q73KAHVT.js";
 import {
   UniverSheetsConditionalFormattingUIPlugin,
   UniverSheetsDataValidationUIPlugin,
   UniverSheetsFilterUIPlugin
-} from "./chunk-CF2SFHPG.js";
+} from "./chunk-GMH43BEU.js";
 import {
   UniverSheetsThreadCommentUIPlugin
 } from "./chunk-DGGCTI3B.js";
@@ -25,7 +25,7 @@ import "./chunk-HLCVIGJV.js";
 import "./chunk-4D32OKJR.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "./chunk-4HDKF3BA.js";
+} from "./chunk-JGJO7U7M.js";
 import "./chunk-GFA6PV6N.js";
 import {
   UniverSheetsDrawingUIPlugin
@@ -42,7 +42,7 @@ import "./chunk-6GPVK25F.js";
 import "./chunk-EQ2B2W73.js";
 import "./chunk-HECJ2TYE.js";
 
-// src/sheets-no-worker/lazy.ts
+// src/sheets/lazy.ts
 function getLazyPlugins() {
   return [
     [UniverDocsMentionUIPlugin],

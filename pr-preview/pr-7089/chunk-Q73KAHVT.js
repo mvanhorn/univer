@@ -35,7 +35,7 @@ import {
 } from "./chunk-HLCVIGJV.js";
 import {
   RangeSelector
-} from "./chunk-4HDKF3BA.js";
+} from "./chunk-JGJO7U7M.js";
 import {
   CellPopupManagerService,
   HoverManagerService,
