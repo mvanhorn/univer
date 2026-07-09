@@ -2,10 +2,10 @@ import {
   UniverSheetsConditionalFormattingMobileUIPlugin,
   UniverSheetsDataValidationMobileUIPlugin,
   UniverSheetsFilterMobileUIPlugin
-} from "../chunk-XORXCH5U.js";
+} from "../chunk-A77HZD4V.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-VXEVKRCX.js";
+} from "../chunk-GBF6YLWN.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
 } from "../chunk-II2AZQAX.js";

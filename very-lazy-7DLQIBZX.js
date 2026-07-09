@@ -6,13 +6,13 @@ import {
 } from "./chunk-UP3Y5QBJ.js";
 import {
   UniverSheetsSortUIPlugin
-} from "./chunk-XS7CT7NS.js";
+} from "./chunk-CAVCCGZ5.js";
 import {
   UniverSheetsCrosshairHighlightPlugin
 } from "./chunk-FTFAJXH2.js";
 import {
   UniverDebuggerPlugin
-} from "./chunk-23MA7OPX.js";
+} from "./chunk-PNZOV76I.js";
 import {
   UniverWatermarkPlugin
 } from "./chunk-K6REBI5O.js";
@@ -23,10 +23,10 @@ import {
 import "./chunk-QMEJ6ZKY.js";
 import {
   UniverSheetsHyperLinkUIPlugin
-} from "./chunk-7ZIONOSY.js";
+} from "./chunk-GU7QH57D.js";
 import "./chunk-5RDHIJMY.js";
 import "./chunk-PEAFN7ZQ.js";
-import "./chunk-SRL2N57D.js";
+import "./chunk-CJ6DHYMV.js";
 import "./chunk-QZVDG6QU.js";
 import "./chunk-2RXBLMEL.js";
 import "./chunk-DJK32BKN.js";

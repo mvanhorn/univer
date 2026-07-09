@@ -15,7 +15,7 @@ import {
 import {
   SheetsHyperLinkParserService,
   SheetsHyperLinkResolverService
-} from "./chunk-7ZIONOSY.js";
+} from "./chunk-GU7QH57D.js";
 import {
   SortRangeCommand
 } from "./chunk-5RDHIJMY.js";
@@ -51,7 +51,7 @@ import {
   SheetDrawingUpdateController,
   transformToAxisAlignPosition,
   transformToDrawingPosition
-} from "./chunk-SRL2N57D.js";
+} from "./chunk-CJ6DHYMV.js";
 import {
   CellAlertManagerService,
   DragManagerService,

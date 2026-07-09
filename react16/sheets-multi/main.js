@@ -1,6 +1,6 @@
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-VXEVKRCX.js";
+} from "../chunk-GBF6YLWN.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
 } from "../chunk-II2AZQAX.js";
