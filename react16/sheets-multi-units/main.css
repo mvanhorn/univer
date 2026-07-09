@@ -367,6 +367,9 @@
 .univer-z-20 {
   z-index: 20;
 }
+.univer-z-40 {
+  z-index: 40;
+}
 .univer-z-\[10000\] {
   z-index: 10000;
 }
@@ -1670,6 +1673,10 @@
 .univer-rounded-r-md {
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
+}
+.univer-rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 .univer-rounded-t-\[28px\] {
   border-top-left-radius: 28px;
@@ -3519,9 +3526,6 @@
 }
 .rtl\:univer-justify-end:where([dir=rtl], [dir=rtl] *) {
   justify-content: flex-end;
-}
-.rtl\:univer-divide-x-reverse:where([dir=rtl], [dir=rtl] *) > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-x-reverse: 1 ;
 }
 .rtl\:univer-rounded-l:where([dir=rtl], [dir=rtl] *) {
   border-top-left-radius: 0.25rem;
@@ -4572,6 +4576,9 @@
 .univer-z-20 {
   z-index: 20;
 }
+.univer-z-40 {
+  z-index: 40;
+}
 .univer-z-\[10000\] {
   z-index: 10000;
 }
@@ -5875,6 +5882,10 @@
 .univer-rounded-r-md {
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
+}
+.univer-rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 .univer-rounded-t-\[28px\] {
   border-top-left-radius: 28px;
@@ -7724,9 +7735,6 @@
 }
 .rtl\:univer-justify-end:where([dir=rtl], [dir=rtl] *) {
   justify-content: flex-end;
-}
-.rtl\:univer-divide-x-reverse:where([dir=rtl], [dir=rtl] *) > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-x-reverse: 1 ;
 }
 .rtl\:univer-rounded-l:where([dir=rtl], [dir=rtl] *) {
   border-top-left-radius: 0.25rem;
