@@ -12,11 +12,11 @@ import {
 } from "./chunk-FTFAJXH2.js";
 import {
   UniverDebuggerPlugin
-} from "./chunk-CQY2KSZZ.js";
+} from "./chunk-LNTZVONP.js";
 import {
   UniverWatermarkPlugin
 } from "./chunk-K6REBI5O.js";
-import "./chunk-LYQIZRLR.js";
+import "./chunk-62X7QK42.js";
 import {
   loadDebuggerLocale
 } from "./chunk-II2AZQAX.js";

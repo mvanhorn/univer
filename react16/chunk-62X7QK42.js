@@ -4812,9 +4812,34 @@ DocDrawingUIController = __decorateClass([
   __decorateParam(2, IShortcutService)
 ], DocDrawingUIController);
 
+// ../packages/docs-drawing-ui/src/services/doc-drawing-floating-toolbar-adapter.service.ts
+var DocDrawingFloatingToolbarAdapterService = class {
+  constructor() {
+    __publicField(this, "_adapters", []);
+  }
+  registerAdapter(adapter) {
+    this._adapters.push(adapter);
+    return toDisposable(() => {
+      const index = this._adapters.indexOf(adapter);
+      if (index >= 0) {
+        this._adapters.splice(index, 1);
+      }
+    });
+  }
+  getItems(params) {
+    for (const adapter of this._adapters) {
+      const items = adapter.getItems(params);
+      if (items) {
+        return [...items].sort((a, b) => a.index - b.index);
+      }
+    }
+    return null;
+  }
+};
+
 // ../packages/docs-drawing-ui/src/menu/drawing-popup-menu.controller.ts
 var DocDrawingPopupMenuController = class extends RxDisposable {
-  constructor(_drawingManagerService, _canvasPopManagerService, _renderManagerService, _univerInstanceService, _contextService, _drawingAdapterService, _commandService) {
+  constructor(_drawingManagerService, _canvasPopManagerService, _renderManagerService, _univerInstanceService, _contextService, _drawingAdapterService, _floatingToolbarAdapterService, _commandService) {
     super();
     __publicField(this, "_drawingManagerService", _drawingManagerService);
     __publicField(this, "_canvasPopManagerService", _canvasPopManagerService);
@@ -4822,6 +4847,7 @@ var DocDrawingPopupMenuController = class extends RxDisposable {
     __publicField(this, "_univerInstanceService", _univerInstanceService);
     __publicField(this, "_contextService", _contextService);
     __publicField(this, "_drawingAdapterService", _drawingAdapterService);
+    __publicField(this, "_floatingToolbarAdapterService", _floatingToolbarAdapterService);
     __publicField(this, "_commandService", _commandService);
     __publicField(this, "_initImagePopupMenu", /* @__PURE__ */ new Set());
     __publicField(this, "_disposePopups", []);
@@ -4935,7 +4961,7 @@ var DocDrawingPopupMenuController = class extends RxDisposable {
               direction: isImage ? "top-center" : "horizontal",
               offset: isImage ? [0, 8] : [2, 0],
               extraProps: {
-                menuItems: this._getImageMenuItems(unitId2, subUnitId, drawingId, drawingType),
+                menuItems: this._getDrawingPopupMenuItems(unitId2, subUnitId, drawingId, drawingType),
                 variant: isImage ? "doc-floating-toolbar" : void 0,
                 unitId: unitId2,
                 subUnitId,
@@ -4981,9 +5007,13 @@ var DocDrawingPopupMenuController = class extends RxDisposable {
       })
     );
   }
-  _getImageMenuItems(unitId, subUnitId, drawingId, drawingType) {
+  _getDrawingPopupMenuItems(unitId, subUnitId, drawingId, drawingType) {
     var _a, _b, _c, _d;
     const drawing = this._drawingManagerService.getDrawingByParam({ unitId, subUnitId, drawingId });
+    const floatingToolbarMenuItems = drawing ? this._floatingToolbarAdapterService.getItems({ unitId, subUnitId, drawing }) : null;
+    if (floatingToolbarMenuItems) {
+      return floatingToolbarMenuItems;
+    }
     const editCommandInfo = drawing ? this._drawingAdapterService.getEditDrawingCommandInfo({ unitId, subUnitId, drawing }) : null;
     return [
       {
@@ -5025,7 +5055,8 @@ DocDrawingPopupMenuController = __decorateClass([
   __decorateParam(3, IUniverInstanceService),
   __decorateParam(4, IContextService),
   __decorateParam(5, IDocDrawingAdapterService),
-  __decorateParam(6, ICommandService)
+  __decorateParam(6, Inject(DocDrawingFloatingToolbarAdapterService)),
+  __decorateParam(7, ICommandService)
 ], DocDrawingPopupMenuController);
 
 // ../packages/docs-drawing-ui/src/plugin.ts
@@ -5051,6 +5082,7 @@ var UniverDocsDrawingUIPlugin = class extends Plugin {
       [DocDrawingTransformerController],
       [DocDrawingAddRemoveController],
       [DocRefreshDrawingsService],
+      [DocDrawingFloatingToolbarAdapterService],
       [DocFloatDomController],
       [DocDrawingPrintingController]
     ];
