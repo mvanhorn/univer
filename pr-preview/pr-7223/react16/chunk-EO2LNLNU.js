@@ -13,7 +13,7 @@ import {
 } from "./chunk-IQNCGZA2.js";
 import {
   SheetCanvasFloatDomManagerService
-} from "./chunk-IVJXRIBL.js";
+} from "./chunk-SP4ESVGI.js";
 import {
   BoldIcon,
   Button,
@@ -803,9 +803,9 @@ function useSnapshot() {
       const doc = univerInstanceService.getCurrentUnitOfType(1 /* UNIVER_DOC */);
       const snapshot2 = resourceLoaderService.saveUnit(doc.getUnitId());
       if (true) {
-        const gitHash = "9cb7020";
+        const gitHash = "7d5f724";
         const gitBranch = "codex/docs-structural-editing-stability";
-        const buildTime = "2026-07-09T15:31:32.585Z";
+        const buildTime = "2026-07-09T22:57:39.149Z";
         snapshot2.__env__ = { gitHash, gitBranch, buildTime };
       }
       const text = JSON.stringify(snapshot2, null, 2);
@@ -818,9 +818,9 @@ function useSnapshot() {
     }
     const snapshot = resourceLoaderService.saveUnit(workbook.getUnitId());
     if (true) {
-      const gitHash = "9cb7020";
+      const gitHash = "7d5f724";
       const gitBranch = "codex/docs-structural-editing-stability";
-      const buildTime = "2026-07-09T15:31:32.585Z";
+      const buildTime = "2026-07-09T22:57:39.149Z";
       snapshot.__env__ = { gitHash, gitBranch, buildTime };
     }
     if (value === "sheet") {

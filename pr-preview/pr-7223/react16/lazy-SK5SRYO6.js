@@ -3,19 +3,19 @@ import {
 } from "./chunk-U4444TH4.js";
 import {
   UniverSheetsThreadCommentUIPlugin
-} from "./chunk-IUPFSLHT.js";
+} from "./chunk-TLCQMHM7.js";
 import {
   UniverSheetsNoteUIPlugin,
   UniverSheetsTableUIPlugin
-} from "./chunk-SH2H6XB5.js";
+} from "./chunk-ZX27ACML.js";
 import {
   UniverSheetsConditionalFormattingUIPlugin,
   UniverSheetsDataValidationUIPlugin,
   UniverSheetsFilterUIPlugin
-} from "./chunk-IJ6LBZDY.js";
+} from "./chunk-ESDJOENZ.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "./chunk-P6AO62AP.js";
+} from "./chunk-BWRJGAR4.js";
 import {
   UniverThreadCommentUIPlugin
 } from "./chunk-4BMZXSYU.js";
@@ -29,7 +29,7 @@ import {
 } from "./chunk-EHRAJES3.js";
 import {
   UniverSheetsDrawingUIPlugin
-} from "./chunk-IVJXRIBL.js";
+} from "./chunk-SP4ESVGI.js";
 import "./chunk-VR5LMJTG.js";
 import "./chunk-3SHPL3YQ.js";
 import "./chunk-35YA4EBZ.js";

@@ -11,7 +11,7 @@ import "../chunk-REZ6O7M2.js";
 import "../chunk-62FTG3QU.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-2AQ4MKH5.js";
+} from "../chunk-EO2LNLNU.js";
 import "../chunk-OVCFMYMG.js";
 import "../chunk-3NNFS3M7.js";
 import {
@@ -19,7 +19,7 @@ import {
   loadDebuggerLocale
 } from "../chunk-IQNCGZA2.js";
 import "../chunk-27ZM6HHQ.js";
-import "../chunk-PAB46HTS.js";
+import "../chunk-LXBUXRH7.js";
 import "../chunk-2EPJDBWR.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -31,7 +31,7 @@ import {
 } from "../chunk-K6DGCA62.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-RY77HR3Z.js";
+} from "../chunk-ZHRIRNPC.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-IML2UZU3.js";
@@ -42,7 +42,7 @@ import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-Z6UPV4VM.js";
 import "../chunk-EHRAJES3.js";
-import "../chunk-IVJXRIBL.js";
+import "../chunk-SP4ESVGI.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
@@ -627,13 +627,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-FLOZLWDB.js").then((lazy) => {
+    import("../lazy-SEGDKQ7V.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-WD4GIVW5.js").then((lazy) => {
+    import("../very-lazy-FTHZRCGX.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
