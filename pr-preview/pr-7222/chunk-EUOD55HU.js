@@ -6,7 +6,7 @@ import {
 } from "./chunk-K6REBI5O.js";
 import {
   DocFloatDomController
-} from "./chunk-WFEOEA3B.js";
+} from "./chunk-62X7QK42.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   DEFAULT_WORKBOOK_DATA_DEMO_DEFAULT_STYLE
@@ -803,9 +803,9 @@ function useSnapshot() {
       const doc = univerInstanceService.getCurrentUnitOfType(1 /* UNIVER_DOC */);
       const snapshot2 = resourceLoaderService.saveUnit(doc.getUnitId());
       if (true) {
-        const gitHash = "3cdaad4";
+        const gitHash = "0f76362";
         const gitBranch = "feat/docs-drawing-floating-toolbar-adapter";
-        const buildTime = "2026-07-09T10:56:52.495Z";
+        const buildTime = "2026-07-09T11:07:26.042Z";
         snapshot2.__env__ = { gitHash, gitBranch, buildTime };
       }
       const text = JSON.stringify(snapshot2, null, 2);
@@ -818,9 +818,9 @@ function useSnapshot() {
     }
     const snapshot = resourceLoaderService.saveUnit(workbook.getUnitId());
     if (true) {
-      const gitHash = "3cdaad4";
+      const gitHash = "0f76362";
       const gitBranch = "feat/docs-drawing-floating-toolbar-adapter";
-      const buildTime = "2026-07-09T10:56:52.495Z";
+      const buildTime = "2026-07-09T11:07:26.042Z";
       snapshot.__env__ = { gitHash, gitBranch, buildTime };
     }
     if (value === "sheet") {

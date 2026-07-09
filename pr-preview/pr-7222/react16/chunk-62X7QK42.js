@@ -101,7 +101,6 @@ import {
   Tools,
   UndoCommand,
   Vector2,
-  createIdentifier,
   debounceTime,
   filter,
   fromEventSubject,
@@ -4814,9 +4813,6 @@ DocDrawingUIController = __decorateClass([
 ], DocDrawingUIController);
 
 // ../packages/docs-drawing-ui/src/services/doc-drawing-floating-toolbar-adapter.service.ts
-var IDocDrawingFloatingToolbarAdapterService = createIdentifier(
-  "doc.drawing-ui-floating-toolbar-adapter.service"
-);
 var DocDrawingFloatingToolbarAdapterService = class {
   constructor() {
     __publicField(this, "_adapters", []);
@@ -5059,7 +5055,7 @@ DocDrawingPopupMenuController = __decorateClass([
   __decorateParam(3, IUniverInstanceService),
   __decorateParam(4, IContextService),
   __decorateParam(5, IDocDrawingAdapterService),
-  __decorateParam(6, IDocDrawingFloatingToolbarAdapterService),
+  __decorateParam(6, Inject(DocDrawingFloatingToolbarAdapterService)),
   __decorateParam(7, ICommandService)
 ], DocDrawingPopupMenuController);
 
@@ -5087,7 +5083,6 @@ var UniverDocsDrawingUIPlugin = class extends Plugin {
       [DocDrawingAddRemoveController],
       [DocRefreshDrawingsService],
       [DocDrawingFloatingToolbarAdapterService],
-      [IDocDrawingFloatingToolbarAdapterService, { useClass: DocDrawingFloatingToolbarAdapterService }],
       [DocFloatDomController],
       [DocDrawingPrintingController]
     ];

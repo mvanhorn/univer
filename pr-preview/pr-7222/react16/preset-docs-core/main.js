@@ -11,7 +11,7 @@ import {
 } from "../chunk-NBYYXNCB.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-WFEOEA3B.js";
+} from "../chunk-62X7QK42.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
 } from "../chunk-II2AZQAX.js";

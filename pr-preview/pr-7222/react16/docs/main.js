@@ -9,14 +9,14 @@ import {
 import "../chunk-IZVXBBG6.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-64VU52YY.js";
+} from "../chunk-7EMRXQVJ.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-K6REBI5O.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-WFEOEA3B.js";
+} from "../chunk-62X7QK42.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
