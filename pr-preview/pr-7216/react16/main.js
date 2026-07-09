@@ -236,11 +236,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "910fa92",
+    GIT_COMMIT_HASH: "0abd87f",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/docs-chart-lifecycle-seams",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-08T07:54:39.313Z"
+    BUILD_TIME: "2026-07-09T02:41:27.909Z"
   });
 }
 function DemoList({ items }) {
