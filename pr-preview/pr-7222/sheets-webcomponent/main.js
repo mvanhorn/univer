@@ -63,7 +63,7 @@ import {
 import {
   UniverSheetsDrawingPlugin,
   UniverSheetsDrawingUIPlugin
-} from "../chunk-KMWVI5C5.js";
+} from "../chunk-SRL2N57D.js";
 import {
   UniverSheetsUIPlugin
 } from "../chunk-QZVDG6QU.js";
@@ -73,7 +73,7 @@ import {
 import {
   UniverThreadCommentPlugin
 } from "../chunk-AKLDEHKU.js";
-import "../chunk-TOR5CAIL.js";
+import "../chunk-2RXBLMEL.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin,

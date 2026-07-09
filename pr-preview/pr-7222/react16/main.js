@@ -226,11 +226,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "b740a53",
+    GIT_COMMIT_HASH: "3cdaad4",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/docs-drawing-floating-toolbar-adapter",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-09T10:50:11.316Z"
+    BUILD_TIME: "2026-07-09T10:57:28.627Z"
   });
 }
 function DemoList({ items }) {

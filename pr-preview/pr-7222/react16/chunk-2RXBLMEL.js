@@ -1477,16 +1477,6 @@ var DocDrawingAdapterService = class {
     }
     return null;
   }
-  getFloatingToolbarMenuItems(params) {
-    var _a;
-    for (const adapter of this._adapters) {
-      const menuItems = (_a = adapter.getFloatingToolbarMenuItems) == null ? void 0 : _a.call(adapter, params);
-      if (menuItems) {
-        return [...menuItems].sort((a, b) => a.index - b.index);
-      }
-    }
-    return null;
-  }
 };
 
 // ../packages/docs-drawing/src/plugin.ts

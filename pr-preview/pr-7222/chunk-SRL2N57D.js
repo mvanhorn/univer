@@ -40,7 +40,7 @@ import {
   getOrCreateDrawingCopyPlan,
   insertGroupObject,
   resolveDrawingRotateEnabled
-} from "./chunk-TOR5CAIL.js";
+} from "./chunk-2RXBLMEL.js";
 import {
   InnerPasteCommand,
   docDrawingPositionToTransform
