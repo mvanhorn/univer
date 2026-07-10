@@ -2,10 +2,10 @@ import {
   UniverSheetsConditionalFormattingMobileUIPlugin,
   UniverSheetsDataValidationMobileUIPlugin,
   UniverSheetsFilterMobileUIPlugin
-} from "../chunk-N7EHH2XA.js";
+} from "../chunk-WZZJKRZV.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-BL7L5KP7.js";
+} from "../chunk-YVPPJKST.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
 } from "../chunk-ITLA2DS7.js";
@@ -15,10 +15,10 @@ import {
 } from "../chunk-ZVF2WUFH.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-YNY3RCMV.js";
+} from "../chunk-ASBJMGCQ.js";
 import {
   UniverSheetsMobileUIPlugin
-} from "../chunk-ZDAZIQSO.js";
+} from "../chunk-VWEN55CD.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin,

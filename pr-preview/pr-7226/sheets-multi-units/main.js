@@ -3,24 +3,24 @@ import {
 } from "../chunk-SIJPJEXY.js";
 import {
   UniverSheetsThreadCommentUIPlugin
-} from "../chunk-DEJUQN23.js";
+} from "../chunk-67TP6MOM.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-BL7L5KP7.js";
+} from "../chunk-YVPPJKST.js";
 import {
   UniverThreadCommentUIPlugin
 } from "../chunk-JDHADAWT.js";
-import "../chunk-J7BKLV6A.js";
-import "../chunk-7V6OQJYN.js";
-import "../chunk-57ISMA3R.js";
+import "../chunk-2VO5LS64.js";
+import "../chunk-UW4TUEXL.js";
+import "../chunk-RNXLXYIO.js";
 import "../chunk-OURVV32G.js";
 import {
   UniverSheetsThreadCommentPlugin
 } from "../chunk-MXJNUPM6.js";
-import "../chunk-PMI33N72.js";
+import "../chunk-YEGB5GOU.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-T6VJXWOI.js";
+} from "../chunk-NVZXT2U6.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-QNCILETD.js";
@@ -32,13 +32,13 @@ import {
 } from "../chunk-ZVF2WUFH.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-YNY3RCMV.js";
-import "../chunk-25HXKTL2.js";
+} from "../chunk-ASBJMGCQ.js";
+import "../chunk-XXLJYHU4.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-ZDAZIQSO.js";
+} from "../chunk-VWEN55CD.js";
 import "../chunk-ZQLB4SOO.js";
-import "../chunk-U456YIXR.js";
+import "../chunk-GNDOLAJ7.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin,
@@ -184,13 +184,13 @@ var injector = univer.__getInjector();
 var userManagerService = injector.get(UserManagerService);
 userManagerService.setCurrentUser(mockUser);
 setTimeout(() => {
-  import("../lazy-LC3YJEVC.js").then((lazy) => {
+  import("../lazy-ZHHQRMF5.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
 }, LOAD_LAZY_PLUGINS_TIMEOUT);
 setTimeout(() => {
-  import("../very-lazy-4QD5A7CH.js").then((lazy) => {
+  import("../very-lazy-TTDRNGWP.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });

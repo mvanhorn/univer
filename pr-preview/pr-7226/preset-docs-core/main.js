@@ -2,7 +2,7 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-3BZNBWS2.js";
+} from "../chunk-WEXE6X7J.js";
 import {
   UniverThreadCommentUIPlugin
 } from "../chunk-JDHADAWT.js";
@@ -11,7 +11,7 @@ import {
 } from "../chunk-Y7HISAE3.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-GAHEIALI.js";
+} from "../chunk-M2P347PG.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
 } from "../chunk-ITLA2DS7.js";
@@ -25,7 +25,7 @@ import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-U456YIXR.js";
+} from "../chunk-GNDOLAJ7.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin
