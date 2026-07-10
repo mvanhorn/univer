@@ -3614,9 +3614,6 @@
 .dark\:\!univer-border-gray-700:where(.univer-dark, .univer-dark *) {
   border-color: var(--univer-gray-700) !important;
 }
-.dark\:\!univer-border-primary-600:where(.univer-dark, .univer-dark *) {
-  border-color: var(--univer-primary-600) !important;
-}
 .dark\:\!univer-border-primary-700:where(.univer-dark, .univer-dark *) {
   border-color: var(--univer-primary-700) !important;
 }
