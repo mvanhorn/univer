@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-KGQPEUSI.js";
+} from "./chunk-LJWJTURH.js";
 import {
   default_default
-} from "./chunk-6Z6YV3AU.js";
+} from "./chunk-SBUQW7IY.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -226,11 +226,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "01e1e9d",
+    GIT_COMMIT_HASH: "be88606",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/fix-formula-reference-highlight",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-11T07:50:13.867Z"
+    BUILD_TIME: "2026-07-11T08:20:15.466Z"
   });
 }
 function DemoList({ items }) {
