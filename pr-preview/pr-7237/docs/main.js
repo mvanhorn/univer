@@ -9,7 +9,7 @@ import {
 import "../chunk-XPPYCE2G.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-ACJVIP6S.js";
+} from "../chunk-EWWUZIYX.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-3YVRHPH7.js";
@@ -21,8 +21,8 @@ import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
 } from "../chunk-Z43WFFXW.js";
-import "../chunk-Q6PZ7OPF.js";
-import "../chunk-TPGEEZ6O.js";
+import "../chunk-PT3A6ZRJ.js";
+import "../chunk-LODJHY2U.js";
 import "../chunk-PKQX2UL2.js";
 import "../chunk-EK36UWLA.js";
 import {
