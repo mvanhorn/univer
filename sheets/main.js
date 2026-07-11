@@ -1,9 +1,9 @@
-import "../chunk-SOY4VBA3.js";
+import "../chunk-5SCNG7NZ.js";
 import {
   UniverVue3AdapterPlugin,
   UniverWebComponentAdapterPlugin
 } from "../chunk-V2TOMPJL.js";
-import "../chunk-GV4C2Q24.js";
+import "../chunk-6PR66E4C.js";
 import {
   en_US_default
 } from "../chunk-HQY3COVA.js";
@@ -11,15 +11,15 @@ import "../chunk-REZ6O7M2.js";
 import "../chunk-62FTG3QU.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-NCCUZPLE.js";
+} from "../chunk-I7D3BP52.js";
 import "../chunk-FUD5S5QA.js";
 import "../chunk-QAVMF3BN.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
 } from "../chunk-CXU3SQBS.js";
-import "../chunk-L7VXC6CD.js";
-import "../chunk-MZUI3ADE.js";
+import "../chunk-7YAIVL6T.js";
+import "../chunk-BJ6223FY.js";
 import "../chunk-2SDZK7L6.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -31,7 +31,7 @@ import {
 } from "../chunk-Z3EJXHDN.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-DDKN6FED.js";
+} from "../chunk-SWHDWTA2.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-WBF63BZZ.js";
@@ -41,12 +41,12 @@ import {
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-7DZQ6MTX.js";
-import "../chunk-3F7B55ZW.js";
-import "../chunk-T7OQEU2S.js";
+import "../chunk-ZENWD3RL.js";
+import "../chunk-WM2NHLMK.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
-} from "../chunk-3ZCCSKSD.js";
+} from "../chunk-2Q7LXA3Q.js";
 import "../chunk-CFLPNLT4.js";
 import {
   UniverNetworkPlugin
@@ -627,13 +627,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-IIVJEUJK.js").then((lazy) => {
+    import("../lazy-IBK3GU74.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-OQZHDGRR.js").then((lazy) => {
+    import("../very-lazy-B2OCA4CZ.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });

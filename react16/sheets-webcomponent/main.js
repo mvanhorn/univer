@@ -1,24 +1,24 @@
 import {
   UniverSheetsFindReplacePlugin
-} from "../chunk-6KUUYGLZ.js";
+} from "../chunk-OSTHJTJB.js";
 import {
   UniverSheetsThreadCommentUIPlugin
-} from "../chunk-7YFUWWDT.js";
+} from "../chunk-VHTR4QHH.js";
 import {
   UniverSheetsNoteUIPlugin,
   UniverSheetsTableUIPlugin
-} from "../chunk-XQP6BOBA.js";
+} from "../chunk-2KENC34N.js";
 import {
   UniverSheetsSortUIPlugin
-} from "../chunk-ESOSH4HM.js";
+} from "../chunk-6CQUPK3B.js";
 import {
   UniverSheetsConditionalFormattingUIPlugin,
   UniverSheetsDataValidationUIPlugin,
   UniverSheetsFilterUIPlugin
-} from "../chunk-I4Z3WOA4.js";
+} from "../chunk-KRBN5KST.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-IZSBVNK4.js";
+} from "../chunk-PSJX5MFF.js";
 import {
   UniverThreadCommentUIPlugin
 } from "../chunk-OE4PG3S3.js";
@@ -28,7 +28,7 @@ import {
 } from "../chunk-V2TOMPJL.js";
 import {
   UniverSheetsCrosshairHighlightPlugin
-} from "../chunk-GV4C2Q24.js";
+} from "../chunk-6PR66E4C.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-FUD5S5QA.js";
@@ -47,7 +47,7 @@ import {
 import {
   UniverSheetsHyperLinkPlugin,
   UniverSheetsHyperLinkUIPlugin
-} from "../chunk-DDKN6FED.js";
+} from "../chunk-SWHDWTA2.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-WBF63BZZ.js";
@@ -59,14 +59,14 @@ import {
 } from "../chunk-7DZQ6MTX.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-3F7B55ZW.js";
+} from "../chunk-ZENWD3RL.js";
 import {
   UniverSheetsDrawingPlugin,
   UniverSheetsDrawingUIPlugin
-} from "../chunk-T7OQEU2S.js";
+} from "../chunk-WM2NHLMK.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-3ZCCSKSD.js";
+} from "../chunk-2Q7LXA3Q.js";
 import {
   UniverNetworkPlugin
 } from "../chunk-ITWNK37V.js";
