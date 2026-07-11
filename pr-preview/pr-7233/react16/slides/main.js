@@ -1,7 +1,7 @@
 import "../chunk-JKXJ45DB.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-BQH57XZF.js";
+} from "../chunk-LQUQ7VQJ.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-ZDEFGDLW.js";
@@ -11,7 +11,7 @@ import {
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-VE6LCRAL.js";
+} from "../chunk-N7XHVX4V.js";
 import "../chunk-R4F3IYPG.js";
 import "../chunk-VLUBKWWO.js";
 import {
@@ -73,11 +73,11 @@ import {
 import "../chunk-FR2PKJFC.js";
 import {
   zh_CN_default
-} from "../chunk-ZS3JSJNT.js";
+} from "../chunk-DWRRKEX5.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-CPLPYTNU.js";
 import "../chunk-SNSWR7JB.js";
-import "../chunk-2FVEG47S.js";
+import "../chunk-MNMA3DIW.js";
 import "../chunk-GNAKMJK7.js";
 import "../chunk-G7SXFZ34.js";
 import {

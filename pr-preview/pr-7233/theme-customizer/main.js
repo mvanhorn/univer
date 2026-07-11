@@ -15,12 +15,12 @@ import {
 } from "../chunk-ONQ6TBI6.js";
 import {
   en_US_default
-} from "../chunk-GW7GUDES.js";
+} from "../chunk-HQY3COVA.js";
 import "../chunk-REZ6O7M2.js";
 import "../chunk-62FTG3QU.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
-} from "../chunk-VE6LCRAL.js";
+} from "../chunk-N7XHVX4V.js";
 import {
   UniverSheetsNotePlugin,
   UniverSheetsTablePlugin

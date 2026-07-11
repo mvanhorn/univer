@@ -14,7 +14,7 @@ import {
 } from "../chunk-C5DQ4VAI.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-VE6LCRAL.js";
+} from "../chunk-N7XHVX4V.js";
 import "../chunk-7T5UHT6A.js";
 import {
   UniverNetworkPlugin

@@ -58,14 +58,14 @@ import {
 } from "../chunk-FR2PKJFC.js";
 import {
   zh_CN_default
-} from "../chunk-ZS3JSJNT.js";
+} from "../chunk-DWRRKEX5.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-CPLPYTNU.js";
 import "../chunk-SNSWR7JB.js";
 import {
   UniverSheetsFilterPlugin
 } from "../chunk-3FKRKIME.js";
-import "../chunk-2FVEG47S.js";
+import "../chunk-MNMA3DIW.js";
 import "../chunk-GNAKMJK7.js";
 import {
   UniverSheetsFormulaPlugin
@@ -190,7 +190,7 @@ setTimeout(() => {
   });
 }, LOAD_LAZY_PLUGINS_TIMEOUT);
 setTimeout(() => {
-  import("../very-lazy-6OY62MZ4.js").then((lazy) => {
+  import("../very-lazy-ETDJAPK6.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
