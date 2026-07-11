@@ -1,29 +1,24 @@
-import "../chunk-JPAXSTWZ.js";
+import "../chunk-JKXJ45DB.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-J6NEEI3K.js";
+} from "../chunk-E7FT5CPZ.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-I3NJPLBF.js";
-import {
-  zh_CN_default
-} from "../chunk-J7LYHFI6.js";
-import "../chunk-5TUZC4HQ.js";
-import "../chunk-DBRQB4K6.js";
+} from "../chunk-ZDEFGDLW.js";
+import "../chunk-7ZBCAFY2.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-P2HBZPXE.js";
-import "../chunk-BH6XLSYI.js";
-import "../chunk-VQDLXLSI.js";
-import "../chunk-CPLPYTNU.js";
+} from "../chunk-45XPEZVE.js";
+import "../chunk-BTRJGKKP.js";
+import "../chunk-5Y32QPUW.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-UDWWJ4UR.js";
+} from "../chunk-O5T7UNDA.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -36,8 +31,7 @@ import {
   RichTextEditingMutation,
   UniverDocsPlugin,
   UniverDocsUIPlugin
-} from "../chunk-DISKKJ3L.js";
-import "../chunk-SNSWR7JB.js";
+} from "../chunk-ZNKYSGF6.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -75,14 +69,20 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-LU6RABWA.js";
+} from "../chunk-FOCWDXCV.js";
+import "../chunk-FR2PKJFC.js";
+import {
+  zh_CN_default
+} from "../chunk-ZS3JSJNT.js";
+import "../chunk-DBRQB4K6.js";
+import "../chunk-CPLPYTNU.js";
+import "../chunk-SNSWR7JB.js";
 import "../chunk-2FVEG47S.js";
-import "../chunk-VGXED5QL.js";
 import "../chunk-GNAKMJK7.js";
-import "../chunk-TVR7VRV3.js";
+import "../chunk-G7SXFZ34.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-C25FSR6I.js";
+} from "../chunk-7SRTVBCX.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -132,7 +132,7 @@ import {
   pxToNum,
   takeUntil,
   toDisposable
-} from "../chunk-OG5AOJFS.js";
+} from "../chunk-JKGF6EFW.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1756,7 +1756,7 @@ var package_default = {
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/drawing": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.19.0",
+    "@univerjs/icons": "1.20.0",
     "@univerjs/slides": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },

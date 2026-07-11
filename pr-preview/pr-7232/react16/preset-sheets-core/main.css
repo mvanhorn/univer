@@ -367,6 +367,9 @@
 .univer-z-20 {
   z-index: 20;
 }
+.univer-z-40 {
+  z-index: 40;
+}
 .univer-z-\[10000\] {
   z-index: 10000;
 }
@@ -793,9 +796,6 @@
 }
 .univer-h-\[calc\(100\%-2px\)\] {
   height: calc(100% - 2px);
-}
-.univer-h-\[calc\(100\%-60px\)\] {
-  height: calc(100% - 60px);
 }
 .univer-h-\[calc\(100\%-8px\)\] {
   height: calc(100% - 8px);
@@ -1674,6 +1674,10 @@
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
 }
+.univer-rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
 .univer-rounded-t-\[28px\] {
   border-top-left-radius: 28px;
   border-top-right-radius: 28px;
@@ -2006,6 +2010,9 @@
 }
 .univer-object-contain {
   object-fit: contain;
+}
+.\!univer-p-0 {
+  padding: 0px !important;
 }
 .\!univer-p-2\.5 {
   padding: 0.625rem !important;
@@ -3510,6 +3517,10 @@
 .rtl\:univer-mr-1:where([dir=rtl], [dir=rtl] *) {
   margin-right: 0.25rem;
 }
+.rtl\:\!univer-rotate-0:where([dir=rtl], [dir=rtl] *) {
+  --tw-rotate: 0deg !important;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+}
 .rtl\:univer-rotate-180:where([dir=rtl], [dir=rtl] *) {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3522,9 +3533,6 @@
 }
 .rtl\:univer-justify-end:where([dir=rtl], [dir=rtl] *) {
   justify-content: flex-end;
-}
-.rtl\:univer-divide-x-reverse:where([dir=rtl], [dir=rtl] *) > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-x-reverse: 1 ;
 }
 .rtl\:univer-rounded-l:where([dir=rtl], [dir=rtl] *) {
   border-top-left-radius: 0.25rem;
@@ -3609,9 +3617,6 @@
 }
 .dark\:\!univer-border-gray-700:where(.univer-dark, .univer-dark *) {
   border-color: var(--univer-gray-700) !important;
-}
-.dark\:\!univer-border-primary-600:where(.univer-dark, .univer-dark *) {
-  border-color: var(--univer-primary-600) !important;
 }
 .dark\:\!univer-border-primary-700:where(.univer-dark, .univer-dark *) {
   border-color: var(--univer-primary-700) !important;
