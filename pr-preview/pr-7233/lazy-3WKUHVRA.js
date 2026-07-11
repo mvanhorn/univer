@@ -7,12 +7,12 @@ import {
 import {
   UniverSheetsNoteUIPlugin,
   UniverSheetsTableUIPlugin
-} from "./chunk-ZVP64DWN.js";
+} from "./chunk-ARGTWYCY.js";
 import {
   UniverSheetsConditionalFormattingUIPlugin,
   UniverSheetsDataValidationUIPlugin,
   UniverSheetsFilterUIPlugin
-} from "./chunk-IYQQM6WP.js";
+} from "./chunk-327TP32G.js";
 import {
   UniverSheetsNumfmtUIPlugin
 } from "./chunk-ONQ6TBI6.js";
@@ -26,7 +26,7 @@ import "./chunk-7FHRUHDQ.js";
 import "./chunk-242QEQV5.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "./chunk-JEGIGM56.js";
+} from "./chunk-KSNEDRGZ.js";
 import {
   UniverSheetsDrawingUIPlugin
 } from "./chunk-R4F3IYPG.js";

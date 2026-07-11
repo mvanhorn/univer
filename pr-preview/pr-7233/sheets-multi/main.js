@@ -9,7 +9,7 @@ import {
 } from "../chunk-242QEQV5.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-JEGIGM56.js";
+} from "../chunk-KSNEDRGZ.js";
 import {
   UniverSheetsUIPlugin
 } from "../chunk-VLUBKWWO.js";

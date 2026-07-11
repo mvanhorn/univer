@@ -2,7 +2,7 @@ import {
   UniverSheetsConditionalFormattingMobileUIPlugin,
   UniverSheetsDataValidationMobileUIPlugin,
   UniverSheetsFilterMobileUIPlugin
-} from "../chunk-IYQQM6WP.js";
+} from "../chunk-327TP32G.js";
 import {
   UniverSheetsNumfmtUIPlugin
 } from "../chunk-ONQ6TBI6.js";
@@ -15,7 +15,7 @@ import {
 } from "../chunk-242QEQV5.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-JEGIGM56.js";
+} from "../chunk-KSNEDRGZ.js";
 import {
   UniverSheetsMobileUIPlugin
 } from "../chunk-VLUBKWWO.js";

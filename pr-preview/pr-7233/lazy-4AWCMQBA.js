@@ -2,10 +2,10 @@ import {
   UniverSheetsConditionalFormattingUIPlugin,
   UniverSheetsDataValidationUIPlugin,
   UniverSheetsFilterUIPlugin
-} from "./chunk-IYQQM6WP.js";
+} from "./chunk-327TP32G.js";
 import "./chunk-7FHRUHDQ.js";
 import "./chunk-242QEQV5.js";
-import "./chunk-JEGIGM56.js";
+import "./chunk-KSNEDRGZ.js";
 import {
   UniverSheetsDrawingUIPlugin
 } from "./chunk-R4F3IYPG.js";
