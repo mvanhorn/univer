@@ -1,0 +1,416 @@
+
+$ pnpm --filter @univerjs/thread-comment test
+exit 0
+----- last 40 lines (test-thread-comment) -----
+$ vitest run
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/thread-comment
+
+
+ Test Files  6 passed (6)
+      Tests  60 passed (60)
+   Start at  19:27:08
+   Duration  1.57s (import 38%, environment 36%, transform 22%, tests 3%)
+
+    Isolate  6 workers spawned · ~307ms startup each (spawn + environment, per file)
+             at least ~307ms faster with isolate: false — reuses workers across files instead of one per file
+
+----- end test-thread-comment -----
+
+$ pnpm --filter @univerjs/thread-comment-ui test
+exit 0
+----- last 40 lines (test-thread-comment-ui) -----
+$ vitest run
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/thread-comment-ui
+
+
+ Test Files  10 passed (10)
+      Tests  69 passed (69)
+   Start at  19:27:10
+   Duration  5.76s (import 47%, transform 22%, tests 16%, environment 15%)
+
+    Isolate  10 workers spawned · ~309ms startup each (spawn + environment, per file)
+             at least ~720ms faster with isolate: false — reuses workers across files instead of one per file
+
+----- end test-thread-comment-ui -----
+
+$ pnpm --filter @univerjs/sheets-thread-comment test
+exit 0
+----- last 40 lines (test-sheets-thread-comment) -----
+$ vitest run
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/sheets-thread-comment
+
+
+ Test Files  8 passed (8)
+      Tests  18 passed (18)
+   Start at  19:27:16
+   Duration  4.87s (import 54%, transform 32%, environment 13%)
+
+     Import  1407 modules were evaluated 5598 times · 6.61s total, 54% of tracked time
+             ~554ms faster with isolate: false — shared modules are evaluated once per worker instead of once per file
+             learn more: https://vitest.dev/guide/improving-performance#test-isolation
+
+----- end test-sheets-thread-comment -----
+
+$ pnpm --filter @univerjs/thread-comment coverage
+exit 0
+----- last 50 lines (coverage-thread-comment) -----
+$ vitest run --coverage
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/thread-comment
+      Coverage enabled with istanbul
+
+
+ Test Files  6 passed (6)
+      Tests  60 passed (60)
+   Start at  19:27:26
+   Duration  1.49s (import 38%, environment 33%, transform 25%, tests 4%, worker 1%)
+
+    Isolate  6 workers spawned · ~272ms startup each (spawn + environment, per file)
+             at least ~272ms faster with isolate: false — reuses workers across files instead of one per file
+
+----- end coverage-thread-comment -----
+
+$ pnpm --filter @univerjs/thread-comment-ui coverage
+exit 0
+----- last 50 lines (coverage-thread-comment-ui) -----
+$ vitest run --coverage
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/thread-comment-ui
+      Coverage enabled with istanbul
+
+
+ Test Files  10 passed (10)
+      Tests  69 passed (69)
+   Start at  19:27:28
+   Duration  5.63s (import 48%, transform 22%, tests 17%, environment 13%)
+
+    Isolate  10 workers spawned · ~265ms startup each (spawn + environment, per file)
+             at least ~619ms faster with isolate: false — reuses workers across files instead of one per file
+
+----- end coverage-thread-comment-ui -----
+
+$ pnpm --filter @univerjs/sheets-thread-comment coverage
+exit 0
+----- last 50 lines (coverage-sheets-thread-comment) -----
+$ vitest run --coverage
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/sheets-thread-comment
+      Coverage enabled with istanbul
+
+
+ Test Files  8 passed (8)
+      Tests  18 passed (18)
+   Start at  19:27:35
+   Duration  4.84s (import 53%, transform 33%, environment 13%)
+
+     Import  1407 modules were evaluated 5598 times · 6.33s total, 53% of tracked time
+             ~531ms faster with isolate: false — shared modules are evaluated once per worker instead of once per file
+             learn more: https://vitest.dev/guide/improving-performance#test-isolation
+
+----- end coverage-sheets-thread-comment -----
+
+$ pnpm --filter @univerjs/thread-comment typecheck
+exit 0
+----- last 60 lines (typecheck-thread-comment) -----
+$ tsrs --noEmit
+----- end typecheck-thread-comment -----
+
+$ pnpm --filter @univerjs/thread-comment-ui typecheck
+exit 0
+----- last 60 lines (typecheck-thread-comment-ui) -----
+$ tsrs --noEmit
+----- end typecheck-thread-comment-ui -----
+
+$ pnpm --filter @univerjs/sheets-thread-comment typecheck
+exit 0
+----- last 60 lines (typecheck-sheets-thread-comment) -----
+$ tsrs --noEmit
+----- end typecheck-sheets-thread-comment -----
+
+$ pnpm --filter @univerjs/preset-sheets-thread-comment typecheck
+exit 0
+----- last 60 lines (typecheck-preset-sheets) -----
+$ tsrs --noEmit
+----- end typecheck-preset-sheets -----
+
+$ pnpm --filter @univerjs/preset-docs-thread-comment typecheck
+exit 0
+----- last 60 lines (typecheck-preset-docs) -----
+$ tsrs --noEmit
+----- end typecheck-preset-docs -----
+
+$ pnpm exec eslint packages/thread-comment/src/common/comment-permission.ts packages/thread-comment/src/common/__tests__/comment-permission.spec.ts packages/thread-comment/src/config/config.ts packages/thread-comment/src/index.ts packages/thread-comment/src/commands/commands/comment.command.ts packages/thread-comment/src/commands/commands/__tests__/comment.command.spec.ts packages/thread-comment/src/facade/f-univer.ts packages/thread-comment-ui/src/views/ThreadCommentTree.tsx packages/thread-comment-ui/src/views/__tests__/ThreadCommentTree.spec.tsx packages/sheets-thread-comment/src/facade/f-thread-comment.ts presets/packages/preset-sheets-thread-comment/src/preset.ts presets/packages/preset-docs-thread-comment/src/preset.ts
+exit 0
+----- last 60 lines (eslint) -----
+
+/workspace/packages/thread-comment/src/facade/f-univer.ts
+  220:15  warning  Interface name `FUniver` must match the RegExp: /^I[A-Z0-9]/u  ts/naming-convention
+
+✖ 1 problem (0 errors, 1 warning)
+
+----- end eslint -----
+
+$ pnpm --filter @univerjs/thread-comment --filter @univerjs/thread-comment-ui --filter @univerjs/sheets-thread-comment --filter @univerjs/sheets-thread-comment-ui build
+exit 0
+----- last 60 lines (build-plugins) -----
+packages/sheets-thread-comment-ui build: ✔ Build complete in 67ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 58ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 52ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 48ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 46ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 43ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 57ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 51ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 43ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 41ms
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/index.js         71.58 kB │ gzip: 12.76 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/en-US.js   0.93 kB │ gzip:  0.56 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ru-RU.js   0.49 kB │ gzip:  0.31 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ar-SA.js   0.39 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/fr-FR.js   0.39 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/fa-IR.js   0.38 kB │ gzip:  0.28 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/pt-BR.js   0.38 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ja-JP.js   0.36 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/de-DE.js   0.36 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/vi-VN.js   0.36 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/pl-PL.js   0.36 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ca-ES.js   0.35 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/es-ES.js   0.35 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/id-ID.js   0.35 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/sk-SK.js   0.34 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/it-IT.js   0.34 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ko-KR.js   0.33 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/zh-CN.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/zh-HK.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/zh-TW.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ 20 files, total: 78.97 kB
+packages/sheets-thread-comment-ui build: ✔ Build complete in 470ms
+packages/sheets-thread-comment-ui build: ℹ lib/es/index.js         66.89 kB │ gzip: 12.75 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/en-US.js   0.94 kB │ gzip:  0.57 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ru-RU.js   0.50 kB │ gzip:  0.31 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ar-SA.js   0.40 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/fr-FR.js   0.39 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/fa-IR.js   0.38 kB │ gzip:  0.28 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/pt-BR.js   0.38 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ja-JP.js   0.37 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/de-DE.js   0.37 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/vi-VN.js   0.37 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/pl-PL.js   0.36 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ca-ES.js   0.36 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/es-ES.js   0.35 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/id-ID.js   0.35 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/sk-SK.js   0.35 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/it-IT.js   0.35 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ko-KR.js   0.33 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/zh-CN.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/zh-HK.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/zh-TW.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/style.css         0.09 kB │ gzip:  0.08 kB
+packages/sheets-thread-comment-ui build: ℹ 21 files, total: 74.46 kB
+packages/sheets-thread-comment-ui build: ✔ Build complete in 514ms
+packages/sheets-thread-comment-ui build: ℹ lib/umd/index.js  40.81 kB │ gzip: 11.38 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 40.81 kB
+packages/sheets-thread-comment-ui build: ✔ Build complete in 513ms
+packages/sheets-thread-comment-ui build: $ tsrs -p tsconfig.node.json
+packages/sheets-thread-comment-ui build: Done
+----- end build-plugins -----
+
+$ ffprobe -hide_banner -show_streams -show_format out.mp4
+exit 0
+----- ffprobe out.mp4 -----
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/thread-comment-demo/artifacts/out.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:25.40, start: 0.000000, bitrate: 325 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 322 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+[STREAM]
+index=0
+codec_name=h264
+codec_long_name=H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+profile=High
+codec_type=video
+codec_tag_string=avc1
+codec_tag=0x31637661
+width=1920
+height=1080
+coded_width=1920
+coded_height=1080
+closed_captions=0
+film_grain=0
+has_b_frames=2
+sample_aspect_ratio=1:1
+display_aspect_ratio=16:9
+pix_fmt=yuv420p
+level=40
+color_range=unknown
+color_space=unknown
+color_transfer=unknown
+color_primaries=unknown
+chroma_location=center
+field_order=progressive
+refs=1
+is_avc=true
+nal_length_size=4
+id=0x1
+r_frame_rate=30/1
+avg_frame_rate=30/1
+time_base=1/15360
+start_pts=0
+start_time=0.000000
+duration_ts=390144
+duration=25.400000
+bit_rate=322674
+max_bit_rate=N/A
+bits_per_raw_sample=8
+nb_frames=762
+nb_read_frames=N/A
+nb_read_packets=N/A
+extradata_size=49
+DISPOSITION:default=1
+DISPOSITION:dub=0
+DISPOSITION:original=0
+DISPOSITION:comment=0
+DISPOSITION:lyrics=0
+DISPOSITION:karaoke=0
+DISPOSITION:forced=0
+DISPOSITION:hearing_impaired=0
+DISPOSITION:visual_impaired=0
+DISPOSITION:clean_effects=0
+DISPOSITION:attached_pic=0
+DISPOSITION:timed_thumbnails=0
+DISPOSITION:non_diegetic=0
+DISPOSITION:captions=0
+DISPOSITION:descriptions=0
+DISPOSITION:metadata=0
+DISPOSITION:dependent=0
+DISPOSITION:still_image=0
+TAG:language=und
+TAG:handler_name=VideoHandler
+TAG:vendor_id=[0][0][0][0]
+TAG:encoder=Lavc60.31.102 libx264
+[/STREAM]
+[FORMAT]
+filename=/tmp/thread-comment-demo/artifacts/out.mp4
+nb_streams=1
+nb_programs=0
+format_name=mov,mp4,m4a,3gp,3g2,mj2
+format_long_name=QuickTime / MOV
+start_time=0.000000
+duration=25.400000
+size=1034454
+bit_rate=325812
+probe_score=100
+TAG:major_brand=isom
+TAG:minor_version=512
+TAG:compatible_brands=isomiso2avc1mp41
+TAG:encoder=Lavf60.16.100
+[/FORMAT]
+--- GIF ---
+Input #0, gif, from '/tmp/thread-comment-demo/artifacts/preview.gif':
+  Duration: 00:00:25.40, start: 0.000000, bitrate: 787 kb/s
+  Stream #0:0: Video: gif, bgra, 1280x720 [SAR 64:64 DAR 16:9], 10 fps, 10 tbr, 100 tbn
+[STREAM]
+index=0
+codec_name=gif
+codec_long_name=CompuServe GIF (Graphics Interchange Format)
+profile=unknown
+codec_type=video
+codec_tag_string=[0][0][0][0]
+codec_tag=0x0000
+width=1280
+height=720
+coded_width=1280
+coded_height=720
+closed_captions=0
+film_grain=0
+has_b_frames=0
+sample_aspect_ratio=1:1
+display_aspect_ratio=16:9
+pix_fmt=bgra
+level=-99
+color_range=unknown
+color_space=unknown
+color_transfer=unknown
+color_primaries=unknown
+chroma_location=unspecified
+field_order=unknown
+refs=1
+id=N/A
+r_frame_rate=10/1
+avg_frame_rate=10/1
+time_base=1/100
+start_pts=0
+start_time=0.000000
+duration_ts=2540
+duration=25.400000
+bit_rate=N/A
+max_bit_rate=N/A
+bits_per_raw_sample=N/A
+nb_frames=254
+nb_read_frames=N/A
+nb_read_packets=N/A
+DISPOSITION:default=0
+DISPOSITION:dub=0
+DISPOSITION:original=0
+DISPOSITION:comment=0
+DISPOSITION:lyrics=0
+DISPOSITION:karaoke=0
+DISPOSITION:forced=0
+DISPOSITION:hearing_impaired=0
+DISPOSITION:visual_impaired=0
+DISPOSITION:clean_effects=0
+DISPOSITION:attached_pic=0
+DISPOSITION:timed_thumbnails=0
+DISPOSITION:non_diegetic=0
+DISPOSITION:captions=0
+DISPOSITION:descriptions=0
+DISPOSITION:metadata=0
+DISPOSITION:dependent=0
+DISPOSITION:still_image=0
+[/STREAM]
+[FORMAT]
+filename=/tmp/thread-comment-demo/artifacts/preview.gif
+nb_streams=1
+nb_programs=0
+format_name=gif
+format_long_name=CompuServe Graphics Interchange Format (GIF)
+start_time=0.000000
+duration=25.400000
+size=2499258
+bit_rate=787167
+probe_score=100
+[/FORMAT]
+----- end ffprobe -----
+
+$ ls -l out.mp4 preview.gif
+exit 0
+-rw-r--r-- 1 ubuntu ubuntu 1034454 Nov 16 19:26 /tmp/thread-comment-demo/artifacts/out.mp4
+-rw-r--r-- 1 ubuntu ubuntu 2499258 Nov 16 19:26 /tmp/thread-comment-demo/artifacts/preview.gif

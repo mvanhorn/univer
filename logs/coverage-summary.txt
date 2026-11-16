@@ -1,0 +1,10 @@
+thread-comment package: 85.78% statements (513/598), 75.27% branches, 78.51% functions, 86.05% lines
+  comment.command.ts: 91.34% statements (95/104)
+  comment-permission.ts: 100% statements (5/5)
+thread-comment-ui package: 77.19% statements (562/728), 76.84% branches, 80% functions, 77.56% lines
+  ThreadCommentTree.tsx: 73.97% statements (108/146)
+sheets-thread-comment package: 94.79% statements (510/538)
+baseline on untouched upstream/dev 582f0c258:
+  thread-comment 52 tests, 85.37% statements
+  thread-comment-ui 66 tests, 76.91% statements
+  sheets-thread-comment 18 tests

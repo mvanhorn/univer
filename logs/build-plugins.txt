@@ -1,0 +1,542 @@
+packages/thread-comment build$ pnpm run build:bundle && pnpm run build:types
+packages/thread-comment build: $ univer-cli build
+packages/thread-comment build: ℹ config file: /workspace/packages/thread-comment/package.json 
+packages/thread-comment build: ℹ config file: /workspace/packages/thread-comment/package.json 
+packages/thread-comment build: ℹ config file: /workspace/packages/thread-comment/package.json 
+packages/thread-comment build: ℹ config file: /workspace/packages/thread-comment/package.json 
+packages/thread-comment build: ℹ config file: /workspace/packages/thread-comment/package.json 
+packages/thread-comment build: ℹ config file: /workspace/packages/thread-comment/package.json 
+packages/thread-comment build: ℹ entry: src/index.ts
+packages/thread-comment build: ℹ target: chrome88
+packages/thread-comment build: ℹ entry: src/index.ts
+packages/thread-comment build: ℹ target: chrome88
+packages/thread-comment build: ℹ entry: src/facade/index.ts
+packages/thread-comment build: ℹ target: chrome88
+packages/thread-comment build: ℹ entry: src/facade/index.ts
+packages/thread-comment build: ℹ target: chrome88
+packages/thread-comment build: ℹ entry: src/index.ts
+packages/thread-comment build: ℹ target: chrome88
+packages/thread-comment build: ℹ entry: src/facade/index.ts
+packages/thread-comment build: ℹ target: chrome88
+packages/thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment build: ℹ Build start
+packages/thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment build: ℹ Build start
+packages/thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment build: ℹ Build start
+packages/thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment build: ℹ Build start
+packages/thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment build: ℹ Build start
+packages/thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment build: ℹ Build start
+packages/thread-comment build: ℹ lib/es/facade.js  2.19 kB │ gzip: 0.81 kB
+packages/thread-comment build: ℹ 1 files, total: 2.19 kB
+packages/thread-comment build: ℹ lib/cjs/facade.js  3.48 kB │ gzip: 1.28 kB
+packages/thread-comment build: ℹ 1 files, total: 3.48 kB
+packages/thread-comment build: ℹ lib/umd/facade.js  1.85 kB │ gzip: 0.73 kB
+packages/thread-comment build: ℹ 1 files, total: 1.85 kB
+packages/thread-comment build: ✔ Build complete in 38ms
+packages/thread-comment build: ℹ lib/es/index.js  44.46 kB │ gzip: 9.30 kB
+packages/thread-comment build: ℹ 1 files, total: 44.46 kB
+packages/thread-comment build: ℹ lib/cjs/index.js  46.13 kB │ gzip: 9.46 kB
+packages/thread-comment build: ℹ 1 files, total: 46.13 kB
+packages/thread-comment build: ✔ Build complete in 39ms
+packages/thread-comment build: ✔ Build complete in 36ms
+packages/thread-comment build: ✔ Build complete in 54ms
+packages/thread-comment build: ✔ Build complete in 44ms
+packages/thread-comment build: ℹ lib/umd/index.js  21.91 kB │ gzip: 6.44 kB
+packages/thread-comment build: ℹ 1 files, total: 21.91 kB
+packages/thread-comment build: ✔ Build complete in 38ms
+packages/thread-comment build: $ tsrs -p tsconfig.node.json
+packages/thread-comment build: Done
+packages/thread-comment-ui build$ pnpm run build:bundle && pnpm run build:types
+packages/sheets-thread-comment build$ pnpm run build:bundle && pnpm run build:types
+packages/thread-comment-ui build: $ univer-cli build
+packages/sheets-thread-comment build: $ univer-cli build
+packages/sheets-thread-comment build: ℹ config file: /workspace/packages/sheets-thread-comment/package.json 
+packages/sheets-thread-comment build: ℹ config file: /workspace/packages/sheets-thread-comment/package.json 
+packages/sheets-thread-comment build: ℹ config file: /workspace/packages/sheets-thread-comment/package.json 
+packages/sheets-thread-comment build: ℹ config file: /workspace/packages/sheets-thread-comment/package.json 
+packages/sheets-thread-comment build: ℹ config file: /workspace/packages/sheets-thread-comment/package.json 
+packages/sheets-thread-comment build: ℹ config file: /workspace/packages/sheets-thread-comment/package.json 
+packages/sheets-thread-comment build: ℹ entry: src/index.ts
+packages/sheets-thread-comment build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ entry: src/index.ts
+packages/sheets-thread-comment build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ entry: src/facade/index.ts
+packages/sheets-thread-comment build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ entry: src/facade/index.ts
+packages/sheets-thread-comment build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ entry: src/index.ts
+packages/sheets-thread-comment build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment build: ℹ Build start
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/sheets-thread-comment build: ℹ entry: src/facade/index.ts
+packages/sheets-thread-comment build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/sheets-thread-comment build: ℹ Build start
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/thread-comment-ui build: ℹ config file: /workspace/packages/thread-comment-ui/package.json 
+packages/sheets-thread-comment build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment build: ℹ Build start
+packages/thread-comment-ui build: ℹ entry: src/index.ts, src/locale/ar-SA.ts, src/locale/ca-ES.ts, src/locale/de-DE.ts, src/locale/en-US.ts, src/locale/es-ES.ts, src/locale/fa-IR.ts, src/locale/fr-FR.ts, src/locale/id-ID.ts, src/locale/it-IT.ts, src/locale/ja-JP.ts, src/locale/ko-KR.ts, src/locale/pl-PL.ts, src/locale/pt-BR.ts, src/locale/ru-RU.ts, src/locale/sk-SK.ts, src/locale/vi-VN.ts, src/locale/zh-CN.ts, src/locale/zh-HK.ts, src/locale/zh-TW.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/ar-SA.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/index.ts, src/locale/ar-SA.ts, src/locale/ca-ES.ts, src/locale/de-DE.ts, src/locale/en-US.ts, src/locale/es-ES.ts, src/locale/fa-IR.ts, src/locale/fr-FR.ts, src/locale/id-ID.ts, src/locale/it-IT.ts, src/locale/ja-JP.ts, src/locale/ko-KR.ts, src/locale/pl-PL.ts, src/locale/pt-BR.ts, src/locale/ru-RU.ts, src/locale/sk-SK.ts, src/locale/vi-VN.ts, src/locale/zh-CN.ts, src/locale/zh-HK.ts, src/locale/zh-TW.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/ca-ES.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/index.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/de-DE.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/en-US.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/fa-IR.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/fr-FR.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/es-ES.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ entry: src/locale/id-ID.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/it-IT.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/ja-JP.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/ko-KR.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/pt-BR.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment build: ℹ Build start
+packages/thread-comment-ui build: ℹ entry: src/locale/pl-PL.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/ru-RU.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/sk-SK.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/vi-VN.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/zh-HK.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/zh-CN.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ entry: src/locale/zh-TW.ts
+packages/thread-comment-ui build: ℹ target: chrome88
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment build: ℹ Build start
+packages/sheets-thread-comment build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment build: ℹ lib/es/index.js  23.41 kB │ gzip: 5.05 kB
+packages/sheets-thread-comment build: ℹ 1 files, total: 23.41 kB
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment build: ℹ lib/cjs/index.js  24.86 kB │ gzip: 5.13 kB
+packages/sheets-thread-comment build: ℹ 1 files, total: 24.86 kB
+packages/sheets-thread-comment build: ℹ lib/es/facade.js  35.75 kB │ gzip: 6.03 kB
+packages/sheets-thread-comment build: ℹ 1 files, total: 35.75 kB
+packages/sheets-thread-comment build: ✔ Build complete in 38ms
+packages/sheets-thread-comment build: ℹ lib/cjs/facade.js  38.09 kB │ gzip: 6.49 kB
+packages/sheets-thread-comment build: ℹ 1 files, total: 38.09 kB
+packages/sheets-thread-comment build: ✔ Build complete in 50ms
+packages/sheets-thread-comment build: ✔ Build complete in 37ms
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment build: ✔ Build complete in 36ms
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment build: ℹ lib/umd/index.js  12.34 kB │ gzip: 3.74 kB
+packages/sheets-thread-comment build: ℹ 1 files, total: 12.34 kB
+packages/sheets-thread-comment build: ℹ lib/umd/facade.js  13.96 kB │ gzip: 3.58 kB
+packages/sheets-thread-comment build: ℹ 1 files, total: 13.96 kB
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment build: ✔ Build complete in 38ms
+packages/sheets-thread-comment build: ✔ Build complete in 40ms
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment build: $ tsrs -p tsconfig.node.json
+packages/thread-comment-ui build: ℹ lib/umd/locale/ar-SA.js  0.99 kB │ gzip: 0.60 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.99 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/ca-ES.js  0.83 kB │ gzip: 0.49 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.83 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/de-DE.js  0.85 kB │ gzip: 0.51 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.85 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/en-US.js  0.77 kB │ gzip: 0.45 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.77 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/fa-IR.js  1.01 kB │ gzip: 0.62 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 1.01 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/fr-FR.js  0.88 kB │ gzip: 0.50 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.88 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/id-ID.js  0.87 kB │ gzip: 0.50 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.87 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/es-ES.js  0.84 kB │ gzip: 0.50 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.84 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/it-IT.js  0.82 kB │ gzip: 0.48 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.82 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/ja-JP.js  0.91 kB │ gzip: 0.60 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.91 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/ko-KR.js  0.84 kB │ gzip: 0.58 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.84 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/sk-SK.js  0.88 kB │ gzip: 0.54 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.88 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/vi-VN.js  0.89 kB │ gzip: 0.54 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.89 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/zh-HK.js  0.74 kB │ gzip: 0.51 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.74 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/zh-CN.js  0.74 kB │ gzip: 0.51 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.74 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/zh-TW.js  0.74 kB │ gzip: 0.51 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.74 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/pt-BR.js  0.87 kB │ gzip: 0.51 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.87 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/ru-RU.js  1.11 kB │ gzip: 0.63 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 1.11 kB
+packages/thread-comment-ui build: ℹ lib/umd/locale/pl-PL.js  0.86 kB │ gzip: 0.52 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 0.86 kB
+packages/sheets-thread-comment build: Done
+packages/thread-comment-ui build: ✔ Build complete in 739ms
+packages/thread-comment-ui build: ✔ Build complete in 731ms
+packages/thread-comment-ui build: ✔ Build complete in 727ms
+packages/thread-comment-ui build: ✔ Build complete in 725ms
+packages/thread-comment-ui build: ✔ Build complete in 723ms
+packages/thread-comment-ui build: ✔ Build complete in 721ms
+packages/thread-comment-ui build: ✔ Build complete in 719ms
+packages/thread-comment-ui build: ✔ Build complete in 717ms
+packages/thread-comment-ui build: ✔ Build complete in 715ms
+packages/thread-comment-ui build: ✔ Build complete in 712ms
+packages/thread-comment-ui build: ✔ Build complete in 711ms
+packages/thread-comment-ui build: ✔ Build complete in 709ms
+packages/thread-comment-ui build: ✔ Build complete in 708ms
+packages/thread-comment-ui build: ✔ Build complete in 706ms
+packages/thread-comment-ui build: ✔ Build complete in 704ms
+packages/thread-comment-ui build: ✔ Build complete in 702ms
+packages/thread-comment-ui build: ✔ Build complete in 700ms
+packages/thread-comment-ui build: ✔ Build complete in 698ms
+packages/thread-comment-ui build: ✔ Build complete in 696ms
+packages/thread-comment-ui build: ℹ lib/cjs/index.js         77.79 kB │ gzip: 14.91 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/en-US.js   1.33 kB │ gzip:  0.74 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/ru-RU.js   1.07 kB │ gzip:  0.56 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/fa-IR.js   0.97 kB │ gzip:  0.55 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/ar-SA.js   0.95 kB │ gzip:  0.54 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/ja-JP.js   0.87 kB │ gzip:  0.54 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/vi-VN.js   0.85 kB │ gzip:  0.48 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/sk-SK.js   0.84 kB │ gzip:  0.48 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/fr-FR.js   0.84 kB │ gzip:  0.45 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/id-ID.js   0.84 kB │ gzip:  0.45 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/pt-BR.js   0.83 kB │ gzip:  0.45 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/pl-PL.js   0.82 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/de-DE.js   0.81 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/es-ES.js   0.81 kB │ gzip:  0.44 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/ko-KR.js   0.80 kB │ gzip:  0.51 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/ca-ES.js   0.80 kB │ gzip:  0.43 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/it-IT.js   0.78 kB │ gzip:  0.42 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/zh-CN.js   0.70 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/zh-HK.js   0.70 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/cjs/locale/zh-TW.js   0.70 kB │ gzip:  0.45 kB
+packages/thread-comment-ui build: ℹ 20 files, total: 94.11 kB
+packages/thread-comment-ui build: ✔ Build complete in 773ms
+packages/thread-comment-ui build: ℹ lib/es/index.js         72.44 kB │ gzip: 14.79 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/en-US.js   1.34 kB │ gzip:  0.75 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/ru-RU.js   1.07 kB │ gzip:  0.56 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/fa-IR.js   0.98 kB │ gzip:  0.56 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/ar-SA.js   0.96 kB │ gzip:  0.54 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/ja-JP.js   0.88 kB │ gzip:  0.54 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/vi-VN.js   0.86 kB │ gzip:  0.48 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/sk-SK.js   0.85 kB │ gzip:  0.48 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/fr-FR.js   0.84 kB │ gzip:  0.45 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/id-ID.js   0.84 kB │ gzip:  0.45 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/pt-BR.js   0.84 kB │ gzip:  0.45 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/pl-PL.js   0.82 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/de-DE.js   0.82 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/es-ES.js   0.81 kB │ gzip:  0.44 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/ko-KR.js   0.80 kB │ gzip:  0.52 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/ca-ES.js   0.80 kB │ gzip:  0.43 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/it-IT.js   0.79 kB │ gzip:  0.42 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/zh-CN.js   0.71 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/zh-HK.js   0.71 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/es/locale/zh-TW.js   0.71 kB │ gzip:  0.46 kB
+packages/thread-comment-ui build: ℹ lib/es/style.css         7.40 kB │ gzip:  1.63 kB
+packages/thread-comment-ui build: ℹ 21 files, total: 96.25 kB
+packages/thread-comment-ui build: ✔ Build complete in 794ms
+packages/thread-comment-ui build: ℹ lib/umd/index.js  48.58 kB │ gzip: 13.32 kB
+packages/thread-comment-ui build: ℹ 1 files, total: 48.58 kB
+packages/thread-comment-ui build: ✔ Build complete in 784ms
+packages/thread-comment-ui build: $ tsrs -p tsconfig.node.json
+packages/thread-comment-ui build: Done
+packages/sheets-thread-comment-ui build$ pnpm run build:bundle && pnpm run build:types
+packages/sheets-thread-comment-ui build: $ univer-cli build
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ config file: /workspace/packages/sheets-thread-comment-ui/package.json 
+packages/sheets-thread-comment-ui build: ℹ entry: src/index.ts, src/locale/ar-SA.ts, src/locale/ca-ES.ts, src/locale/de-DE.ts, src/locale/en-US.ts, src/locale/es-ES.ts, src/locale/fa-IR.ts, src/locale/fr-FR.ts, src/locale/id-ID.ts, src/locale/it-IT.ts, src/locale/ja-JP.ts, src/locale/ko-KR.ts, src/locale/pl-PL.ts, src/locale/pt-BR.ts, src/locale/ru-RU.ts, src/locale/sk-SK.ts, src/locale/vi-VN.ts, src/locale/zh-CN.ts, src/locale/zh-HK.ts, src/locale/zh-TW.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/index.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/ar-SA.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/ca-ES.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/en-US.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/de-DE.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/es-ES.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/fr-FR.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/id-ID.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/fa-IR.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/it-IT.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/ja-JP.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/ko-KR.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/pl-PL.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/pt-BR.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/ru-RU.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/sk-SK.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/vi-VN.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/zh-CN.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/zh-HK.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/locale/zh-TW.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ entry: src/index.ts, src/locale/ar-SA.ts, src/locale/ca-ES.ts, src/locale/de-DE.ts, src/locale/en-US.ts, src/locale/es-ES.ts, src/locale/fa-IR.ts, src/locale/fr-FR.ts, src/locale/id-ID.ts, src/locale/it-IT.ts, src/locale/ja-JP.ts, src/locale/ko-KR.ts, src/locale/pl-PL.ts, src/locale/pt-BR.ts, src/locale/ru-RU.ts, src/locale/sk-SK.ts, src/locale/vi-VN.ts, src/locale/zh-CN.ts, src/locale/zh-HK.ts, src/locale/zh-TW.ts
+packages/sheets-thread-comment-ui build: ℹ target: chrome88
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ tsconfig: tsconfig.json
+packages/sheets-thread-comment-ui build: ℹ Build start
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/en-US.js  0.47 kB │ gzip: 0.29 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.47 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/de-DE.js  0.50 kB │ gzip: 0.32 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.50 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/es-ES.js  0.49 kB │ gzip: 0.31 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.49 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/it-IT.js  0.48 kB │ gzip: 0.31 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.48 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/fr-FR.js  0.53 kB │ gzip: 0.33 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.53 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/ja-JP.js  0.50 kB │ gzip: 0.35 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.50 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/pt-BR.js  0.52 kB │ gzip: 0.32 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.52 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/vi-VN.js  0.50 kB │ gzip: 0.34 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.50 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/ar-SA.js  0.53 kB │ gzip: 0.35 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.53 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/ca-ES.js  0.49 kB │ gzip: 0.32 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.49 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/id-ID.js  0.49 kB │ gzip: 0.31 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.49 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/ko-KR.js  0.47 kB │ gzip: 0.34 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.47 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/ru-RU.js  0.64 kB │ gzip: 0.40 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.64 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/sk-SK.js  0.49 kB │ gzip: 0.32 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.49 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/zh-CN.js  0.45 kB │ gzip: 0.33 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.45 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/zh-HK.js  0.45 kB │ gzip: 0.34 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.45 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/zh-TW.js  0.45 kB │ gzip: 0.33 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.45 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/fa-IR.js  0.52 kB │ gzip: 0.36 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.52 kB
+packages/sheets-thread-comment-ui build: ℹ lib/umd/locale/pl-PL.js  0.50 kB │ gzip: 0.33 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 0.50 kB
+packages/sheets-thread-comment-ui build: ✔ Build complete in 63ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 62ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 60ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 58ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 54ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 52ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 48ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 44ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 68ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 67ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 58ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 52ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 48ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 46ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 43ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 57ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 51ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 43ms
+packages/sheets-thread-comment-ui build: ✔ Build complete in 41ms
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/index.js         71.58 kB │ gzip: 12.76 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/en-US.js   0.93 kB │ gzip:  0.56 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ru-RU.js   0.49 kB │ gzip:  0.31 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ar-SA.js   0.39 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/fr-FR.js   0.39 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/fa-IR.js   0.38 kB │ gzip:  0.28 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/pt-BR.js   0.38 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ja-JP.js   0.36 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/de-DE.js   0.36 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/vi-VN.js   0.36 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/pl-PL.js   0.36 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ca-ES.js   0.35 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/es-ES.js   0.35 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/id-ID.js   0.35 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/sk-SK.js   0.34 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/it-IT.js   0.34 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/ko-KR.js   0.33 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/zh-CN.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/zh-HK.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/cjs/locale/zh-TW.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ 20 files, total: 78.97 kB
+packages/sheets-thread-comment-ui build: ✔ Build complete in 470ms
+packages/sheets-thread-comment-ui build: ℹ lib/es/index.js         66.89 kB │ gzip: 12.75 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/en-US.js   0.94 kB │ gzip:  0.57 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ru-RU.js   0.50 kB │ gzip:  0.31 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ar-SA.js   0.40 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/fr-FR.js   0.39 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/fa-IR.js   0.38 kB │ gzip:  0.28 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/pt-BR.js   0.38 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ja-JP.js   0.37 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/de-DE.js   0.37 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/vi-VN.js   0.37 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/pl-PL.js   0.36 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ca-ES.js   0.36 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/es-ES.js   0.35 kB │ gzip:  0.23 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/id-ID.js   0.35 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/sk-SK.js   0.35 kB │ gzip:  0.25 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/it-IT.js   0.35 kB │ gzip:  0.24 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/ko-KR.js   0.33 kB │ gzip:  0.27 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/zh-CN.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/zh-HK.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/locale/zh-TW.js   0.31 kB │ gzip:  0.26 kB
+packages/sheets-thread-comment-ui build: ℹ lib/es/style.css         0.09 kB │ gzip:  0.08 kB
+packages/sheets-thread-comment-ui build: ℹ 21 files, total: 74.46 kB
+packages/sheets-thread-comment-ui build: ✔ Build complete in 514ms
+packages/sheets-thread-comment-ui build: ℹ lib/umd/index.js  40.81 kB │ gzip: 11.38 kB
+packages/sheets-thread-comment-ui build: ℹ 1 files, total: 40.81 kB
+packages/sheets-thread-comment-ui build: ✔ Build complete in 513ms
+packages/sheets-thread-comment-ui build: $ tsrs -p tsconfig.node.json
+packages/sheets-thread-comment-ui build: Done

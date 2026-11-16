@@ -1,0 +1,6 @@
+
+/workspace/packages/thread-comment/src/facade/f-univer.ts
+  220:15  warning  Interface name `FUniver` must match the RegExp: /^I[A-Z0-9]/u  ts/naming-convention
+
+✖ 1 problem (0 errors, 1 warning)
+
