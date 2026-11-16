@@ -1,0 +1,197 @@
+# commands.log — excel-paste-locale-separators
+# Working directory: /workspace (clone of mvanhorn/univer)
+# Feature branch: feat/excel-paste-locale-separators (from upstream/dev 582f0c258)
+# Product commit: 3ab888ae5c4d39f42decdb1eb80f67f6367d5f56
+
+$ git remote add upstream https://github.com/dream-num/univer.git && git fetch upstream dev && git checkout -b feat/excel-paste-locale-separators upstream/dev
+# exit 0; branch created at 582f0c25898a7e2f2d5952919caede69b3eb259e
+
+$ gh issue view 6087 -R dream-num/univer --comments
+# exit 0; issue open, labels bug + backlog, unassigned
+
+$ gh pr list -R dream-num/univer --state open --search "6087"
+# exit 0; no open PRs
+
+$ gh pr list -R dream-num/univer --state open --search "mso-displayed"
+# exit 0; no open PRs
+
+$ gh pr list -R dream-num/univer --state open --search "paste separator"
+# exit 0; no open PRs
+
+$ gh pr diff 7810 -R dream-num/univer
+# exit 0; closed-by-author PR, not copied
+
+##### baseline on untouched upstream/dev (files stashed)
+
+$ pnpm --filter @univerjs/sheets-ui typecheck
+exit 0
+-----
+$ tsrs --noEmit
+-----
+
+$ pnpm --filter @univerjs/sheets-ui test
+exit 0
+-----
+ Test Files  147 passed (147)
+      Tests  1239 passed (1239)
+   Start at  18:56:46
+   Duration  74.09s (import 70%, environment 14%, transform 12%, tests 5%)
+-----
+
+$ pnpm exec eslint packages/sheets-ui/src/services/clipboard/html-to-usm/converter.ts
+exit 0
+-----
+/workspace/packages/sheets-ui/src/services/clipboard/html-to-usm/converter.ts
+   296:17  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+   749:5   warning  Method 'process' has too many lines (82). Maximum allowed is 80                    max-lines-per-function
+   749:13  warning  Class Method name `process` must have one leading underscore(s)                    ts/naming-convention
+   872:1   warning  Missing JSDoc @returns description                                                 jsdoc/require-returns-description
+   923:13  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+   973:10  warning  'childNodeToHTML' is defined but never used. Allowed unused vars must match /^_/u  unused-imports/no-unused-vars
+  1086:29  warning  Unexpected control character(s) in regular expression: \x00, \x00                  no-control-regex
+
+✖ 7 problems (0 errors, 7 warnings)
+-----
+
+$ pnpm --filter @univerjs/sheets-ui coverage -- src/services/clipboard/html-to-usm/converter.ts
+exit 0
+-----
+ Test Files  147 passed (147)
+      Tests  1239 passed (1239)
+   Start at  19:11:17
+   Duration  81.49s
+
+ % Coverage report from istanbul
+--------------|---------|----------|---------|---------|------------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+--------------|---------|----------|---------|---------|------------------------
+All files     |   92.66 |    83.92 |   89.83 |    93.2 |
+ converter.ts |   92.66 |    83.92 |   89.83 |    93.2 | ...1,974-989,1032,1116
+--------------|---------|----------|---------|---------|------------------------
+Statements   : 92.66% ( 455/491 )
+Branches     : 83.92% ( 261/311 )
+Functions    : 89.83% ( 53/59 )
+Lines        : 93.2% ( 439/471 )
+-----
+
+##### after the product change
+
+$ pnpm --filter @univerjs/sheets-ui typecheck
+exit 0
+-----
+$ tsrs --noEmit
+-----
+
+$ pnpm --filter @univerjs/sheets-ui test
+exit 0
+-----
+ Test Files  147 passed (147)
+      Tests  1253 passed (1253)
+   Start at  19:08:27
+   Duration  71.32s
+-----
+
+$ pnpm exec eslint packages/sheets-ui/src/services/clipboard/html-to-usm/converter.ts packages/sheets-ui/src/services/clipboard/type.ts packages/sheets-ui/src/services/clipboard/__tests__/excel-locale-separator-html.ts packages/sheets-ui/src/services/clipboard/__tests__/clipboard-paste-form-excel.spec.ts packages/sheets-ui/src/services/clipboard/html-to-usm/__tests__/converter.spec.ts
+exit 0
+-----
+/workspace/packages/sheets-ui/src/services/clipboard/html-to-usm/converter.ts
+   306:17  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+   885:5   warning  Method 'process' has too many lines (82). Maximum allowed is 80                    max-lines-per-function
+   885:13  warning  Class Method name `process` must have one leading underscore(s)                    ts/naming-convention
+  1009:1   warning  Missing JSDoc @returns description                                                 jsdoc/require-returns-description
+  1060:13  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+  1110:10  warning  'childNodeToHTML' is defined but never used. Allowed unused vars must match /^_/u  unused-imports/no-unused-vars
+  1223:29  warning  Unexpected control character(s) in regular expression: \x00, \x00                  no-control-regex
+
+/workspace/packages/sheets-ui/src/services/clipboard/type.ts
+  197:1  warning  @param "rowProperties" does not match an existing function parameter  jsdoc/check-param-names
+
+✖ 8 problems (0 errors, 8 warnings)
+-----
+
+$ pnpm --filter @univerjs/sheets-ui coverage -- src/services/clipboard/html-to-usm/converter.ts
+exit 0
+-----
+ Test Files  147 passed (147)
+      Tests  1253 passed (1253)
+   Start at  19:09:48
+   Duration  69.59s
+
+ % Coverage report from istanbul
+--------------|---------|----------|---------|---------|------------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+--------------|---------|----------|---------|---------|------------------------
+All files     |   93.53 |    84.69 |   91.89 |   93.83 |
+ converter.ts |   93.53 |    84.69 |   91.89 |   93.83 | ...1126,1169,1291,1308
+--------------|---------|----------|---------|---------|------------------------
+Statements   : 93.53% ( 564/603 )
+Branches     : 84.69% ( 343/405 )
+Functions    : 91.89% ( 68/74 )
+Lines        : 93.83% ( 548/584 )
+-----
+
+$ pnpm build:plugins --filter @univerjs/sheets-ui...
+# failed: ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL (script name not defined that way)
+
+$ pnpm --filter @univerjs/sheets-ui... run build
+exit 0
+# last lines:
+. build: ✔ Build complete in 2825ms
+. build: $ tsrs -p tsconfig.node.json
+. build: Done
+
+$ git log -1 --format=fuller
+commit 3ab888ae5c4d39f42decdb1eb80f67f6367d5f56
+Author:     Matt Van Horn <mvanhorn@users.noreply.github.com>
+AuthorDate: Mon Nov 16 19:14:07 2026 +0000
+Commit:     Matt Van Horn <mvanhorn@users.noreply.github.com>
+CommitDate: Mon Nov 16 19:14:07 2026 +0000
+
+    fix(sheets-ui): read Excel's displayed separators when pasting numbers
+
+$ git show --stat --format=oneline HEAD
+3ab888ae5c4d39f42decdb1eb80f67f6367d5f56 fix(sheets-ui): read Excel's displayed separators when pasting numbers
+ .../__tests__/clipboard-paste-form-excel.spec.ts   | 167 +++++++++++
+ .../__tests__/excel-locale-separator-html.ts       | 169 +++++++++++
+ .../html-to-usm/__tests__/converter.spec.ts        | 122 ++++++++
+ .../services/clipboard/html-to-usm/converter.ts    | 326 ++++++++++++++++++---
+ packages/sheets-ui/src/services/clipboard/type.ts  |   1 +
+ 5 files changed, 749 insertions(+), 36 deletions(-)
+
+##### demo recording (pnpm dev #sheets, Playwright, captured Excel HTML)
+
+$ pnpm --filter univer-examples dev
+# Vite v8.3.0 ready, http://localhost:5173/
+
+# Playwright against http://127.0.0.1:5173/#sheets
+# pasteIntoSheet of captured Excel HTML with
+#   mso-displayed-decimal-separator:"\,"
+#   mso-displayed-thousand-separator:"\."
+# displayed values 516.382.306.730, 12,5, 1.000,5
+#
+# upstream/dev:
+#   A1 raw="516.382.306.730" t=1 (text)
+#   C2 =SUM(A1:A3) -> 0
+# this branch:
+#   A1 raw=516382306730 t=2 (number), displayed 516,382,306,730
+#   A2 raw=12.5  A3 raw=1000.5
+#   C2 =SUM(A1:A3) -> 516382307743
+
+$ ffprobe -hide_banner out.mp4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/demo-assets/out.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:28.63, start: 0.000000, bitrate: 196 kb/s
+  Stream #0:0[0x1](eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 193 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+
+$ ffprobe -hide_banner preview.gif
+Input #0, gif, from '/tmp/demo-assets/preview.gif':
+  Duration: 00:00:28.60, start: 0.000000, bitrate: 449 kb/s
+  Stream #0:0: Video: gif, bgra, 1280x720 [SAR 64:64 DAR 16:9], 10 fps, 10 tbr, 100 tbn
+
+$ wc -c preview.gif out.mp4
+1605763 preview.gif
+ 703085 out.mp4

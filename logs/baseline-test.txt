@@ -1,0 +1,17 @@
+$ vitest run
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/sheets-ui
+
+
+ Test Files  147 passed (147)
+      Tests  1239 passed (1239)
+   Start at  18:56:46
+   Duration  74.09s (import 70%, environment 14%, transform 12%, tests 5%)
+
+     Import  2430 modules were evaluated 7845 times · 144.89s total, 70% of tracked time
+             ~10.56s faster with isolate: false — shared modules are evaluated once per worker instead of once per file
+             learn more: https://vitest.dev/guide/improving-performance#test-isolation
+

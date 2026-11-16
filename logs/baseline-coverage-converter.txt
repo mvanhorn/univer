@@ -1,0 +1,31 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.0 /workspace/packages/sheets-ui
+      Coverage enabled with istanbul
+
+
+ Test Files  147 passed (147)
+      Tests  1239 passed (1239)
+   Start at  19:11:17
+   Duration  81.49s (import 71%, environment 14%, transform 9%, tests 6%)
+
+     Import  2430 modules were evaluated 10191 times · 160.83s total, 71% of tracked time
+             ~19.38s faster with isolate: false — shared modules are evaluated once per worker instead of once per file
+             learn more: https://vitest.dev/guide/improving-performance#test-isolation
+
+ % Coverage report from istanbul
+--------------|---------|----------|---------|---------|------------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+--------------|---------|----------|---------|---------|------------------------
+All files     |   92.66 |    83.92 |   89.83 |    93.2 |                        
+ converter.ts |   92.66 |    83.92 |   89.83 |    93.2 | ...1,974-989,1032,1116 
+--------------|---------|----------|---------|---------|------------------------
+
+=============================== Coverage summary ===============================
+Statements   : 92.66% ( 455/491 )
+Branches     : 83.92% ( 261/311 )
+Functions    : 89.83% ( 53/59 )
+Lines        : 93.2% ( 439/471 )
+================================================================================

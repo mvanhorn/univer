@@ -1,0 +1,12 @@
+
+/workspace/packages/sheets-ui/src/services/clipboard/html-to-usm/converter.ts
+   296:17  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+   749:5   warning  Method 'process' has too many lines (82). Maximum allowed is 80                    max-lines-per-function
+   749:13  warning  Class Method name `process` must have one leading underscore(s)                    ts/naming-convention
+   872:1   warning  Missing JSDoc @returns description                                                 jsdoc/require-returns-description
+   923:13  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+   973:10  warning  'childNodeToHTML' is defined but never used. Allowed unused vars must match /^_/u  unused-imports/no-unused-vars
+  1086:29  warning  Unexpected control character(s) in regular expression: \x00, \x00                  no-control-regex
+
+✖ 7 problems (0 errors, 7 warnings)
+

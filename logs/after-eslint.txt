@@ -1,0 +1,16 @@
+
+/workspace/packages/sheets-ui/src/services/clipboard/html-to-usm/converter.ts
+   306:17  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+   885:5   warning  Method 'process' has too many lines (82). Maximum allowed is 80                    max-lines-per-function
+   885:13  warning  Class Method name `process` must have one leading underscore(s)                    ts/naming-convention
+  1009:1   warning  Missing JSDoc @returns description                                                 jsdoc/require-returns-description
+  1060:13  warning  Unexpected assignment within a 'while' statement                                   no-cond-assign
+  1110:10  warning  'childNodeToHTML' is defined but never used. Allowed unused vars must match /^_/u  unused-imports/no-unused-vars
+  1223:29  warning  Unexpected control character(s) in regular expression: \x00, \x00                  no-control-regex
+
+/workspace/packages/sheets-ui/src/services/clipboard/type.ts
+  197:1  warning  @param "rowProperties" does not match an existing function parameter  jsdoc/check-param-names
+
+✖ 8 problems (0 errors, 8 warnings)
+
+EXIT:0
